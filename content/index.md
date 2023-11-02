@@ -1,11 +1,21 @@
 ---
-Title: Home
-Description: This is our index page.
+Title: Tamara Kljajic
+Description: Page about me
 ---
 
-Home page
+Tamara Kljajic
 ==========================
 
-The source for this page is in `content/index.md`.
+<!--The source for this page is in `content/index.md`.-->
 
-This is a sample home page written in markdown with some frontmatter defined.
+![Tamara](image/tamara.jpg "Tamara"){.portfolio}
+
+Mitt namn är Tamara.
+
+Utbildad civilingenjör i maskinteknik sedan 2016.
+
+Sedan 2022 augusti jobbar jag på Driv innovaton i Östersund som teknisk projektledare.
+
+För tillfället är jag föräldraledig med barn nummer 2 och passar därför på att bredda mina kunskaper.
+
+
