@@ -9,6 +9,8 @@
         {% for social in pages["_meta"].meta.social %}
         <a href="{{ social.url }}" title="{{ social.title }}" role="button">
             <i class="fa fa-{{ social.icon }}" aria-hidden="true"></i>
+
+            <!--<i class="fab fa-linkedin"></i>-->
             <span class="sr-only">{{ social.title }}</span>
         </a>
         {% endfor %}

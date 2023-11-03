@@ -26,6 +26,7 @@ body {
 
 .main {
     flex: 1 0 auto;
+    padding: 1%;
 }
 
 .header, .footer {
@@ -37,6 +38,8 @@ body {
 .header, .site-header {
     display: flex;
     justify-content: space-between;
+    background: linear-gradient(to bottom, #666, #000);    
+    
 }
 
 /* Title */
@@ -58,7 +61,7 @@ body {
 }
 
 .title * {
-    color: #111;
+    color: #fff;  
 }
 
 .title p {
@@ -66,24 +69,20 @@ body {
 }
 
 .nav a {
-    font-size: 1rem;
+    font-size: 1.1rem;
     text-decoration: none;
+    color: #fff;
     }
-    
-.nav a:hover {
-    border-bottom: 4px solid #ff00ff;
+
+.nav li {
+    background-color: rgb(151, 81, 151);
+    border: 2px solid rgb(204, 0, 255);
+    border-radius: 20%;
 }
 
-.nav li:first-child {
-    background-color: #f0f;
-}
-
-.nav li:last-child {
-    background-color: #0ff;
-}
 
 .nav li:hover {
-    background-color: #ff0;
+    background-color: rgb(225, 169, 225);;
 }
 
 /* main */
@@ -102,8 +101,8 @@ p {
 .footer {
     display: flex;
     justify-content: space-between;
-    border-top: 4px solid #ff00ff;
-    background-color: #222;
+    border-top: 4px solid #444;
+    background: linear-gradient(to bottom, #666, #000);
     color: #fff;
     padding: 4rem 6rem;
 }
@@ -115,6 +114,7 @@ p {
 .footer .social {
     font-size: 2rem;
 }
+
 
 /* Typografy */
 
@@ -180,9 +180,55 @@ blockquote {
     border-left: 0.5em solid #f5f5f5;
 }
 
+/*kmom01*/
 img.portfolio {
     float: left;
     margin: 0 1em 1em 0.5em;
     width: 10em;
     border: 4px solid black;
+}
+
+.logo img {
+    max-width: 20%;
+}
+
+.header {
+    border-bottom: 4px solid #444;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.social a {
+    text-decoration: none;
+}
+
+
+/*testing*/
+
+.first-box {
+    box-sizing: content-box;
+    background-color: black;
+    height: 100px;
+    width: 600px;
+}
+
+.second-box {
+    box-sizing: content-box;
+    background-color: blue;
+    height: 100px;
+    width: 100%;
+}
+
+.third-box {
+    box-sizing: border-box;
+    background-color: red;
+    height: 100px;
+    width: 50vw;
+}
+
+.fourth-box {
+    box-sizing: border-box;
+    background-color: green;
+    height: 100px;
+    width: 100vw;
 }
