@@ -1,9 +1,4 @@
-* {
-    box-sizing: border-box;
-    border: 0 none;
-    margin: 0;
-    padding: 0;
-}
+@import "init.css";
 
 ol, ul {
     padding-left: 1.5em;
@@ -22,11 +17,15 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
+    background-color: #eee;
 }
 
 .main {
     flex: 1 0 auto;
+    max-width: 80%;
+    background-color: #fff;
     padding: 1%;
+    margin: 0 auto;
 }
 
 .header, .footer {
@@ -35,18 +34,26 @@ body {
 
 /* Header */
 
-.header, .site-header {
+.header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background: linear-gradient(to bottom, #666, #000);    
     
 }
 
-/* Title */
-
-.title, .logo {
-    padding: 3em 3em 3em 0;
+.site-header {
+    display: flex;
+    align-items: center; 
+    
 }
+
+.site-header a {
+    text-decoration: none;
+    
+}
+
+/* Title */
 
 @media (max-width: 767px) {
     .title, .logo {
@@ -62,10 +69,15 @@ body {
 
 .title * {
     color: #fff;  
+    margin: 0;
 }
 
 .title p {
     font-style: italic;
+}
+
+.title h1:hover {
+    color: rgb(225, 169, 225);;
 }
 
 .nav a {
@@ -86,10 +98,6 @@ body {
 }
 
 /* main */
-.main {
-    width: 80%;
-    margin: 0 auto;
-}
 
 p {
     /*radhöjd *textstorlek*/
@@ -104,18 +112,37 @@ p {
     border-top: 4px solid #444;
     background: linear-gradient(to bottom, #666, #000);
     color: #fff;
-    padding: 4rem 6rem;
+    padding: 1rem 6rem 4rem;
 }
 
 .footer a {
     color: #fff;
+    text-decoration: none;
+}
+
+.footer li:hover, a:hover {
+    color: rgb(225, 169, 225);;
 }
 
 .footer .social {
     font-size: 2rem;
+    text-align: right;
 }
 
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50%;
+}
 
+.footer > .row {
+    width: calc(100% /2);
+}
+
+.row h4 {
+    border-bottom: 2px solid #fff;
+}
 /* Typografy */
 
 body {
@@ -182,20 +209,21 @@ blockquote {
 
 /*kmom01*/
 img.portfolio {
-    float: left;
-    margin: 0 1em 1em 0.5em;
+    display: block;  
+
     width: 10em;
     border: 4px solid black;
 }
 
 .logo img {
-    max-width: 20%;
+    display: block; 
+     
+    width: 75%;
+    padding: 5%;
 }
 
 .header {
     border-bottom: 4px solid #444;
-    box-sizing: border-box;
-    width: 100%;
 }
 
 .social a {
