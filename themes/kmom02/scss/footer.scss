@@ -1,19 +1,15 @@
 .footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     border-top: $border-heavy;
     background: $background-linear-gradient;
     padding: 1rem 6rem 4rem;
-    gap: 50%;
-
+    
     * {
         color: $font-alternative-color;
         text-decoration: none;
     }
 
     li:hover, a:hover, i:hover {
-        color: rgb(225, 169, 225);;
+        color: $hover-color;
     }
 
     .social {
@@ -21,12 +17,21 @@
         text-align: right;
     }
 
-    > .row {
+    .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        /*gap: max 60%;*/
+    }    
+
+    .row > .col2 {
         width: calc(100% /2);
+        box-sizing: border-box;
     }
 
     .row h4 {
-        border-bottom: $border-light;
+        text-decoration: $border-light;
+    
     }
 
 }
