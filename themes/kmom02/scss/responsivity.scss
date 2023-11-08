@@ -32,3 +32,19 @@
         display: none;
     }
 }
+
+@media (max-width: 450px) {
+    .footer .row {
+        flex-wrap: wrap;
+    }
+  
+    .footer .row > .col2 {
+        width: 100%;
+    }
+
+    .footer .social {
+        text-align: center;
+        border-top: $border-light;
+        padding-top: 10%;
+    }
+}
