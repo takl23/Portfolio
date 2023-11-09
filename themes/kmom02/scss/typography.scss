@@ -1,8 +1,21 @@
 
 * {
     font-family: $main-font;
+    color: $font-color;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: $header-font;
 }
+
+p {
+    /*radhöjd *textstorlek*/
+    @include line-height-and-font-size-and-text-margines($main-font, $margin, $margin-bottom);
+
+}
+
+p, td, th, li, dd {
+    word-wrap: break-word;
+    
+}
+
