@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 
+/*color*/
 $font-color: #000;
 $font-alternative-color: #fff;
 
@@ -13,8 +14,15 @@ $border-color: rgb(204, 0, 255);
 
 $hover-color: rgb(225, 169, 225);
 
-$header-font: 'Roboto', sans-serif;
-$main-font: 'Open Sans', sans-serif;
-
+/*borders*/
 $border-light: 1px solid #ccc;
 $border-heavy: 4px solid #444;
+
+/*typography variables*/
+$header-font: 'Roboto', sans-serif;
+$main-font: 'Open Sans', sans-serif;
+$base-line-height: 1.4; /*En multipel av textstorleken*/
+$base-font-size: 1.1em;
+$margin-bottom: 1.54rem; /*1.4*1.1 $base-line-height*$base-font-size*/
+$margin: 1.54rem auto;
+
