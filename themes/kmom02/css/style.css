@@ -6371,46 +6371,31 @@ template {
   display: none;
 }
 
-.old-fashioned {
-  font-size: 1.4em;
-  font-family: Garamond;
-  line-height: 1.4;
-  width: 64rem;
-  margin-bottom: 1.96rem;
-  margin: 1.96rem auto;
-  background-color: antiquewhite;
-  color: black;
-  letter-spacing: 1px;
-}
-
-.modern {
-  font-size: 1.4em;
-  font-family: Verdana;
-  line-height: 1.4;
-  width: 64rem;
-  margin-bottom: 1.96rem;
-  margin: 1.96rem auto;
-  color: #333;
-  letter-spacing: 1px;
-}
-
-.worst-ever {
-  font-size: 1.4em;
-  font-family: fantasy;
-  line-height: 0.5;
-  width: 64rem;
-  margin-bottom: 1.96rem;
-  margin: 1.96rem auto;
-  color: #333;
-  letter-spacing: -3px;
-}
-
+/*color*/
+/*borders*/
+/*typography variables*/
+/*En multipel av textstorleken*/
+/*1.4*1.1 $base-line-height*$base-font-size*/
 * {
   font-family: "Open Sans", sans-serif;
+  color: #000;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto", sans-serif;
+}
+
+p {
+  /*radhöjd *textstorlek*/
+  line-height: 1.4;
+  font-size: 1.1em;
+  font-family: "Open Sans", sans-serif;
+  margin: 1.54rem auto;
+  margin-bottom: 1.54rem;
+}
+
+p, td, th, li, dd {
+  word-wrap: break-word;
 }
 
 .hidden {
@@ -6423,9 +6408,6 @@ html {
   height: 100%;
 }
 
-* {
-  color: #000;
-}
 * *::before, * *::after {
   box-sizing: inherit;
 }
@@ -6450,24 +6432,16 @@ body {
   overflow: auto;
 }
 
+img {
+  max-width: 100%;
+}
+
 ol, ul {
   padding-left: 1.5em;
 }
 
-p {
-  /*radhöjd *textstorlek*/
-  margin-bottom: 1.4rem;
-  font-size: 1.1em;
-}
-
 p, td, th, li, dd {
-  text-align: justify;
-  overflow-wrap: break-word;
   word-wrap: break-word;
-}
-
-img {
-  max-width: 100%;
 }
 
 .header {
@@ -6717,6 +6691,44 @@ pre code {
 .far {
   font-family: "Font Awesome 5 Free";
   font-weight: 400;
+}
+
+/*sans-serif väljs om Verdana inte lyckas laddas*/
+/*En multipel av textstorleken*/
+/*radavstånd mellan stycke rekkomenderat att ta line-height*fontsize rem*/
+.old-fashioned {
+  margin-bottom: 1.96rem;
+  margin: 1.96rem auto;
+  background-color: rgb(251, 237, 220);
+  color: rgb(0, 0, 0);
+  letter-spacing: 1px;
+  line-height: 1.4;
+  font-size: 1.4em;
+  font-family: Garamond, serif;
+}
+
+.modern {
+  font-family: Verdana;
+  margin-bottom: 1.96rem;
+  margin: 1.96rem auto;
+  color: #333;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  width: 64rem;
+  line-height: 1.4;
+  font-size: 1.4em;
+  font-family: Verdana, sans-serif;
+}
+
+.worst-ever {
+  font-size: 1.4em;
+  font-family: fantasy;
+  line-height: 0.5;
+  width: 64rem; /* rem-rotelementets storlek. Man vill hamna någonstans mellan 50-90 tecken på en textrad*/
+  margin-bottom: 1.96rem;
+  margin: 1.96rem auto;
+  color: #333;
+  letter-spacing: -3px;
 }
 
 .slide {
