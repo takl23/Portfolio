@@ -6371,6 +6371,40 @@ template {
   display: none;
 }
 
+.old-fashioned {
+  font-size: 1.4em;
+  font-family: Garamond;
+  line-height: 1.4;
+  width: 64rem;
+  margin-bottom: 1.96rem;
+  margin: 1.96rem auto;
+  background-color: antiquewhite;
+  color: black;
+  letter-spacing: 1px;
+}
+
+.modern {
+  font-size: 1.4em;
+  font-family: Verdana;
+  line-height: 1.4;
+  width: 64rem;
+  margin-bottom: 1.96rem;
+  margin: 1.96rem auto;
+  color: #333;
+  letter-spacing: 1px;
+}
+
+.worst-ever {
+  font-size: 1.4em;
+  font-family: fantasy;
+  line-height: 0.5;
+  width: 64rem;
+  margin-bottom: 1.96rem;
+  margin: 1.96rem auto;
+  color: #333;
+  letter-spacing: -3px;
+}
+
 * {
   font-family: "Open Sans", sans-serif;
 }
