@@ -52,60 +52,29 @@ $orange: #E2921F;
 /* GRADIENT LISTS
 ============================================= */
 
-$list1: $purpel, $blue, $orange; 
-
-$list2: $purpel 0%,$purpel 33%,$blue 33%,$blue 66%, $orange 66%, $orange 100%; 
-
-$list3: $purpel 0%,$purpel 10%,$blue 25%,$blue 39%,$orange 79%,$orange 100%; 
-
-$list4: $purpel, $blue, $orange, $purpel, $blue, $orange, $purpel, $blue, $orange;
+$list1: $purpel, $blue, $orange;  
+$direction: to left;
 
 @mixin gradient($direction, $list) { 
-    background: -webkit-linear-gradient($direction, $list);
-    background: -moz-linear-gradient($direction, $list);
-    background: -o-linear-gradient($direction, $list);
-    background: linear-gradient($direction, $list);  
-  }
+    
+    background: linear-gradient($direction, $list);    
+}
 
-  
-  .wrapper {
+
+.wrapper {
     position: relative;
     overflow: hidden;
     width: 500px;
     margin: 0 auto;
-  }
+}
   
-  .bar {
+.bar {
     height: 50px;
-    widht: 100%;
+    width: 100%;
     margin-top:10px;
-  }
+}
   
   
-  .one {
-    @include gradient(left, $list1);
-  }
-  
-  .two {
-    @include gradient(right, $list1);
-  }
-  
-  .three {
-    @include gradient(left, $list2);
-  }
-  
-  .four {
-    @include gradient(top, $list3);
-  }
-  
-  .five {
-    @include gradient(bottom, $list3);
-  }
-  
-  .six {
-    @include gradient(left, $list4);
-  }
-  
-  
-
-
+.one {
+    @include gradient($direction, $list1);
+}
