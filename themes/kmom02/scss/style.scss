@@ -2,7 +2,7 @@
 $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../node_modules/normalize.css/normalize';
 @import 'variables';
-@import 'test';
+@import 'mixin';
 
 @import 'typography';
 @import 'base';
@@ -20,9 +20,11 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/solid';
 @import '../../shared/fontawesome/scss/regular';
 
+@import 'test';
 
 @import 'mobile-menu';
 @import 'responsivity';
+
 
 
 
