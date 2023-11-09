@@ -24,14 +24,10 @@ body {
     margin: 0 auto;
     max-width: 80%;
     background-color: $background-alternative-color;
-    padding: 1%;
     overflow: auto;
     border-left: 1px solid #ccc;
     border-right: 1px solid #ccc;
-    padding-left: 1em;
-    padding-right: 1em;
     min-height: 100%;
-    overflow: auto;
 }
 
 img {
@@ -42,6 +38,3 @@ ol, ul {
     padding-left: 1.5em;
 }
 
-p, td, th, li, dd {
-    word-wrap: break-word; 
-}

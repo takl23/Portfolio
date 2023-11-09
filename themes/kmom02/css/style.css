@@ -6375,27 +6375,24 @@ template {
 /*borders*/
 /*typography variables*/
 /*En multipel av textstorleken*/
-/*1.4*1.1 $base-line-height*$base-font-size*/
+/*1.4*1 $base-line-height*$base-font-size*/
 * {
   font-family: "Open Sans", sans-serif;
-  color: #000;
+  color: #333;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto", sans-serif;
+  margin: 1.54rem auto;
+  /*margin-bottom: $margin-bottom;*/
 }
 
 p {
-  /*radhöjd *textstorlek*/
   line-height: 1.4;
-  font-size: 1.1em;
+  font-size: 1.1rem;
   font-family: "Open Sans", sans-serif;
   margin: 1.54rem auto;
   margin-bottom: 1.54rem;
-}
-
-p, td, th, li, dd {
-  word-wrap: break-word;
 }
 
 .hidden {
@@ -6422,14 +6419,10 @@ body {
   margin: 0 auto;
   max-width: 80%;
   background-color: #fff;
-  padding: 1%;
   overflow: auto;
   border-left: 1px solid #ccc;
   border-right: 1px solid #ccc;
-  padding-left: 1em;
-  padding-right: 1em;
   min-height: 100%;
-  overflow: auto;
 }
 
 img {
@@ -6438,10 +6431,6 @@ img {
 
 ol, ul {
   padding-left: 1.5em;
-}
-
-p, td, th, li, dd {
-  word-wrap: break-word;
 }
 
 .header {
@@ -6820,5 +6809,10 @@ pre code {
     text-align: center;
     border-top: 1px solid #ccc;
     padding-top: 10%;
+  }
+}
+@media (min-width: 800px) {
+  .main p, .main h1, .main h2, .main h3, .main h4, .main h5, .main h6 {
+    width: 45rem;
   }
 }
