@@ -30,7 +30,7 @@ I andra kursmomentet har fokus varit att skapa en stabilare bas när vi stylar v
 
 I kursmoment 2 har vi installerat <b>npm</b> som pakethaterare och <b>Node.js</b>. Node.js är ett verktyg som tillgängliggör så att man kan köra JavaScript utanför en webbläsare.
 
-I kursmoment två har vi också installerat <b>SASS</b> som är en pre-processor till css. SASS möjliggör att vi kan skriva vår kod för styling uppdelat och sedan kompilera ihop det till en stor css fil. SASS-syntaxen vi använder är "scss".
+I kursmoment två har vi också installerat <b>SASS</b> som är en pre-processor till css. SASS möjliggör att vi kan skriva vår kod för styling uppdelat och sedan kompilera ihop det till en stor css fil som då gäller för hela webbplatsen. SASS-syntaxen vi använder är "scss". På denna webbplats har hittils variabler, "nesting, och "mixin" används vilket är några av fördelarna när man jobbar med SASS.
 
-Utöver verktygen som hittills har introducerats så har vi även importerat fonter från <b>Google Fonts</b> och ikoner från <b>Font Awesome</b>.
+Utöver verktygen som hittills har introducerats så har vi även importerat fonter från <b>Google Fonts</b> och ikoner från <b>Font Awesome</b>. Även modulen <b>Normalize.css</b> har inkulderats på våran webbplats för att normalisera stylingen mellan olika browsers.
 
