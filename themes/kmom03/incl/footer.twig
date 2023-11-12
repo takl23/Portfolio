@@ -1,0 +1,33 @@
+<div class="footer">
+    <div class="row">
+        <div class="col2">
+            <h4>Validering</h4>
+                <ul>
+                    <li ><a href="http://validator.w3.org/" target="_blank">HTML</a></li>
+                    <li ><a href="http://jigsaw.w3.org/css-validator/" target="_blank">CSS</a></li>
+                    <li><a href="https://validator.w3.org/" target="_blank">Link checker</a></li>
+                </ul>
+        </div>
+        <div class="social col2">
+            <!-- Loads from FontAwesome (themes/shared/css/font-awesome.min.css) -->
+            {% for social in pages["_meta"].meta.social %}
+            <a href="{{ social.url }}" title="{{ social.title }}" role="button">
+                <i class="{{ social.icon }}" aria-hidden="true"></i>
+
+                <!--<i class="fab fa-linkedin"></i>-->
+                <span class="sr-only">{{ social.title }}</span>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+<script src="{{ theme_url }}/../shared//js/modernizr-3.3.1-custom.min.js"></script>
+<script src="{{ theme_url }}/../shared//js/utils.js"></script>
+<script src="{{ theme_url }}/../shared//js/responsive-navbar.js"></script>
+
+<!--
+<script src="{{ theme_url }}/../shared//js/modernizr-3.3.1-custom.min.js" type="text/javascript"></script>
+<script src="{{ theme_url }}/../shared//js/utils.js" type="text/javascript"></script>
+<script src="{{ theme_url }}/../shared//js/responsive-navbar.js" type="text/javascript"></script>
+-->
