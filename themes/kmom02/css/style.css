@@ -6543,58 +6543,6 @@ ol, ul {
   background-color: rgb(225, 169, 225);
 }
 
-.slide {
-  overflow-y: hidden !important;
-  transition: height 0.5s ease-in !important;
-}
-
-.nav ul {
-  display: flex;
-  justify-content: flex-end;
-  padding: 1em 0;
-  list-style: none;
-}
-
-.nav ul li {
-  padding: 0 1em;
-}
-
-.nav a, .nav-toggle {
-  color: #fff;
-}
-
-.nav-toggle {
-  display: none;
-}
-
-@media (max-width: 767px) {
-  .header {
-    flex-direction: column;
-  }
-  .nav ul {
-    flex-direction: column;
-    padding-bottom: 1em;
-  }
-  .nav ul li {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  }
-  .nav ul li a {
-    display: block;
-    padding: 0.5em 0;
-  }
-  .js .nav-toggle {
-    display: block;
-    float: right;
-    width: 2em;
-    margin: 0.6667em 0;
-    font-size: 1.5rem;
-    line-height: 2em;
-    text-align: center;
-    cursor: pointer;
-  }
-}
 blockquote {
   font-style: italic;
   margin-left: 1em;
@@ -6740,6 +6688,16 @@ pre code {
 
 .one {
   background: linear-gradient(to left, #C133FF, #2A40C9, #E2921F);
+}
+
+.landingpage {
+  display: grid;
+  gap: 1em 1em;
+}
+
+.landingpage h1 {
+  grid-column: span 3;
+  justify-self: center;
 }
 
 .slide {
