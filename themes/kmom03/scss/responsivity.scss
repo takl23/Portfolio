@@ -56,3 +56,19 @@
         }
     } 
 }
+
+@media screen and (max-width: 960px) {
+    .landingpage {
+        padding: 0.5em;
+        grid-gap: 0.5em;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .landingpage h1 {
+        grid-column: span 1;
+    }
+
+    .wide {
+        grid-column: span 1;
+    }
+}

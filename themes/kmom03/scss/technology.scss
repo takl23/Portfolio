@@ -1,26 +1,35 @@
 .landingpage {
     display: grid;
     gap: 1em 1em;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
 }
 
 .wrapper {
     max-width: $text-width;
     margin: 0 auto;
-    padding: 5%
+    padding: 5%;
    }
 
 .landingpage h1 {
     grid-column: span 3;
-    color: rgb(143, 94, 42);
 }
 
 .box {
-    box-sizing: border-box;
-    border:$border-heavy;
-    height: auto;
-    width: auto;
-    text-align: center;
-    padding: 5%
-   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid $border-color;
+    font-weight: bold;
     
+
+}
+
+.wide {
+    grid-column: span 3;
+}
+
+
+.landingpage div:hover {
+    background-color: $hover-color;
 }
