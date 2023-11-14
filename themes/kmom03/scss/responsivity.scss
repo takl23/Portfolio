@@ -49,15 +49,16 @@
     }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 960px) {
     .main {
         p, h1, h2, h3, h4, h5, h6 {
             width: $text-width;  
         }
     } 
+    
 }
 
-@media screen and (max-width: 960px) {
+@media (max-width: 960px) {
     .landingpage {
         padding: 0.5em;
         grid-gap: 0.5em;

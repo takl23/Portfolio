@@ -6843,12 +6843,12 @@ pre code {
     padding-top: 10%;
   }
 }
-@media (min-width: 800px) {
+@media (min-width: 960px) {
   .main p, .main h1, .main h2, .main h3, .main h4, .main h5, .main h6 {
     width: 45rem;
   }
 }
-@media screen and (max-width: 960px) {
+@media (max-width: 960px) {
   .landingpage {
     padding: 0.5em;
     grid-gap: 0.5em;
