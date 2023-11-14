@@ -4,12 +4,23 @@
 }
 
 .wrapper {
-    max-width: 960px;
+    max-width: $text-width;
     margin: 0 auto;
+    padding: 5%
    }
 
 .landingpage h1 {
-    grid-column: 1 / 3;
-    grid-row: 1 / 1;
+    grid-column: span 3;
     color: rgb(143, 94, 42);
+}
+
+.box {
+    box-sizing: border-box;
+    border:$border-heavy;
+    height: auto;
+    width: auto;
+    text-align: center;
+    padding: 5%
+   
+    
 }
