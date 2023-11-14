@@ -78,3 +78,33 @@ $direction: to left;
 .one {
     @include gradient($direction, $list1);
 }
+
+/*testing*/
+
+.first-box {
+    box-sizing: content-box;
+    background-color: black;
+    height: 100px;
+    width: 600px;
+}
+
+.second-box {
+    box-sizing: content-box;
+    background-color: blue;
+    height: 100px;
+    width: 100%;
+}
+
+.third-box {
+    box-sizing: border-box;
+    background-color: red;
+    height: 100px;
+    width: 50vw;
+}
+
+.fourth-box {
+    box-sizing: border-box;
+    background-color: green;
+    height: 100px;
+    width: 100vw;
+}
