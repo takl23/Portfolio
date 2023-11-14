@@ -6,9 +6,7 @@
 .wrapper {
     max-width: 960px;
     margin: 0 auto;
-    grid-template-columns: 200px auto;
-    grid-template-rows: 200px 600px 200px;
-}
+   }
 
 .landingpage h1 {
     grid-column: 1 / 3;

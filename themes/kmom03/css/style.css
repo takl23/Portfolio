@@ -6673,7 +6673,7 @@ pre code {
 ============================================= */
 /* GRADIENT LISTS
 ============================================= */
-.wrapper {
+.wrapper1 {
   position: relative;
   overflow: hidden;
   width: 500px;
@@ -6698,8 +6698,6 @@ pre code {
 .wrapper {
   max-width: 960px;
   margin: 0 auto;
-  grid-template-columns: 200px auto;
-  grid-template-rows: 200px 600px 200px;
 }
 
 .landingpage h1 {
