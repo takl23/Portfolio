@@ -83,28 +83,28 @@ $direction: to left;
 
 .first-box {
     box-sizing: content-box;
-    background-color: black;
+    background-color: #000;
     height: 100px;
     width: 600px;
 }
 
 .second-box {
     box-sizing: content-box;
-    background-color: blue;
+    background-color: #02f;
     height: 100px;
     width: 100%;
 }
 
 .third-box {
     box-sizing: border-box;
-    background-color: red;
+    background-color: #f00;
     height: 100px;
     width: 50vw;
 }
 
 .fourth-box {
     box-sizing: border-box;
-    background-color: green;
+    background-color: #37ff00;
     height: 100px;
     width: 100vw;
 }
