@@ -74,3 +74,10 @@
         grid-column: span 1;
     }
 }
+
+@media (max-width: 1200px) {
+    .technology-menu h2, li {
+        font-size: smaller;
+    }
+
+}
