@@ -6423,6 +6423,7 @@ body {
   border-left: 1px solid #ccc;
   border-right: 1px solid #ccc;
   min-height: 100%;
+  padding: 5%;
 }
 
 img {
