@@ -6871,7 +6871,7 @@ pre code {
   .landingpage h1 {
     grid-column: span 1;
   }
-  .wide {
+  .c-one, .c-two, .c-three {
     grid-column: span 1;
   }
 }
