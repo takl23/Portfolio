@@ -6858,6 +6858,15 @@ pre code {
     text-align: center;
     cursor: pointer;
   }
+  .technology-single {
+    justify-content: space-around;
+  }
+  .technology-menu {
+    display: none;
+  }
+  .technology-content {
+    width: 45rem;
+  }
 }
 /*responsivity*/
 @media (max-width: 767px) {
@@ -6915,5 +6924,10 @@ pre code {
   }
   .c-one, .c-two, .c-three {
     grid-column: span 1;
+  }
+}
+@media (max-width: 1200px) {
+  .technology-menu h2, li {
+    font-size: smaller;
   }
 }
