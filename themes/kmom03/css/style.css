@@ -6739,6 +6739,7 @@ pre code {
 
 .landingpage h1 {
   grid-column: span 3;
+  grid-column-start: 1;
 }
 
 .box {
@@ -6747,6 +6748,9 @@ pre code {
   align-items: center;
   border: 2px solid rgb(204, 0, 255);
   font-weight: bold;
+}
+.box a {
+  text-decoration: none;
 }
 
 .c-one {
@@ -6763,6 +6767,21 @@ pre code {
 
 .landingpage div:hover {
   background-color: rgb(225, 169, 225);
+}
+
+.technology-single {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.technology-menu {
+  width: 25%;
+}
+
+.technology-content {
+  width: 55%;
 }
 
 .slide {
@@ -6858,7 +6877,7 @@ pre code {
 }
 @media (min-width: 960px) {
   .main p, .main h1, .main h2, .main h3, .main h4, .main h5, .main h6, .main ol, .main ul, .main pre {
-    width: 45rem;
+    max-width: 45rem;
     margin: 1.54rem auto;
   }
 }

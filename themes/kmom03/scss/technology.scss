@@ -13,6 +13,7 @@
 
 .landingpage h1 {
     grid-column: span 3;
+    grid-column-start: 1;
 }
 
 .box {
@@ -22,7 +23,9 @@
     border: 2px solid $border-color;
     font-weight: bold;
     
-
+    a {
+      text-decoration: none;  
+    }
 }
 
 .c-one {
@@ -41,3 +44,21 @@
 .landingpage div:hover {
     background-color: $hover-color;
 }
+
+
+.technology-single {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+}
+
+.technology-menu {
+width: 25%;
+}
+
+.technology-content {
+    width: 55%;
+
+}
+
