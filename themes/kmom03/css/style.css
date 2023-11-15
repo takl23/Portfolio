@@ -6691,7 +6691,7 @@ pre code {
   margin-top: 10px;
 }
 
-.one {
+.one1 {
   background: linear-gradient(to left, #C133FF, #2A40C9, #E2921F);
 }
 
@@ -6749,7 +6749,15 @@ pre code {
   font-weight: bold;
 }
 
-.wide {
+.c-one {
+  grid-column: span 1;
+}
+
+.c-two {
+  grid-column: span 2;
+}
+
+.c-three {
   grid-column: span 3;
 }
 

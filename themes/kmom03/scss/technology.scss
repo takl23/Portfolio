@@ -25,7 +25,15 @@
 
 }
 
-.wide {
+.c-one {
+    grid-column: span 1;
+}
+
+.c-two {
+    grid-column: span 2;
+}
+
+.c-three {
     grid-column: span 3;
 }
 

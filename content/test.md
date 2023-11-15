@@ -37,5 +37,5 @@ Nästa hyss han gjorde var när han i grönsakssoppan dök på huvet ner og sen 
 </p>
 
 <div class="wrapper1"> 
-  <div class="bar one"></div> 
+  <div class="bar one1"></div> 
 </div>
