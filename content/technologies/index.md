@@ -8,29 +8,29 @@ Teknologier
 ==========================
 
 <div class="box c-three">
-CSS
+<a href="%base_url%?technology/css"> CSS </a>
 </div>
 
 <div class="box c-two">
-HTML
+<a href="%base_url%?technology/html"> HTML </a>
 </div>
 
 <div class="box c-one">
-JAVASCRIPT
+<a href="%base_url%?technology/javascript"> JAVASCRIPT </a>
 </div>
 
 <div class="box c-two">
-PHP
+<a href="%base_url%?technology/php"> PHP </a>
 </div>
 
 <div class="box c-one">
-PYTHON
+<a href="%base_url%?technology/pyton"> PYTHON </a>
 </div>
 
 <div class="box c-two">
-GIT
+<a href="%base_url%?technology/git"> GIT </a>
 </div>
 
 <div class="box c-one">
-SQLITE
+<a href="%base_url%?technology/sqlite"> SQLITE </a>
 </div>
