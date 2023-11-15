@@ -55,10 +55,38 @@ align-items: flex-start;
 
 .technology-menu {
 width: 25%;
+min-height: 100vh;
+border-right: $border-light;
+padding-left: 1em;
+padding-right: 1em;
+padding-top: 24px;
+
+h2 {
+    border-bottom: 1px solid #ccc;
+}
+
+li {
+    margin-left: 1.5em;
+}
+
+a {
+    text-decoration: none;
+}
+
+li:hover, a:hover {
+    color: $hover-color;
+}
 }
 
 .technology-content {
     width: 55%;
+
+    pre {
+        background: $background-linear-gradient;
+    code{
+        color: #fff;
+    }
+    }
 
 }
 

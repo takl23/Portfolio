@@ -7,7 +7,12 @@
         <div class="technology-single">
 
             <div class="technology-menu">
-                <h2>meny</h2>
+                <h2>Innehållsförteckning</h2>
+                 {% for page in pages("technology") %}
+                    <div class="post">
+                        <li><h3><a href="{{ page.url }}">{{ page.title }}</a></h3></li>
+                    </div>
+ {% endfor %}
             </div>
 
             <div class="technology-content">

@@ -6778,10 +6778,33 @@ pre code {
 
 .technology-menu {
   width: 25%;
+  min-height: 100vh;
+  border-right: 1px solid #ccc;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 24px;
+}
+.technology-menu h2 {
+  border-bottom: 1px solid #ccc;
+}
+.technology-menu li {
+  margin-left: 1.5em;
+}
+.technology-menu a {
+  text-decoration: none;
+}
+.technology-menu li:hover, .technology-menu a:hover {
+  color: rgb(225, 169, 225);
 }
 
 .technology-content {
   width: 55%;
+}
+.technology-content pre {
+  background: linear-gradient(to bottom, #666, #000);
+}
+.technology-content pre code {
+  color: #fff;
 }
 
 .slide {
