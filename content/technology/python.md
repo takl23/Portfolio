@@ -1,6 +1,6 @@
 ---
 Title: Python
-Description: This is the page about Jpython.
+Description: This is the page about python.
 Template: technology
 ---
 # Python
