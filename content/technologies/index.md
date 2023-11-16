@@ -24,7 +24,7 @@ Teknologier
 </div>
 
 <div class="box c-one">
-<a href="%base_url%?technology/pyton"> PYTHON </a>
+<a href="%base_url%?technology/python"> PYTHON </a>
 </div>
 
 <div class="box c-two">
