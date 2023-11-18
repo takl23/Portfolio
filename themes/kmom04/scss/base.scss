@@ -1,0 +1,45 @@
+.hidden {
+    display: none !important;
+}
+
+html {
+    /*Calculated by automatically adjusting the dimensions of padding + border + content to fit the given height and width*/
+    box-sizing: border-box;
+    height: 100%;
+}
+
+* {
+    *::before, *::after {
+        box-sizing: inherit;
+    }
+}
+
+body {
+    background-color: $background-color;
+    overflow-y: scroll;
+    height: 100%;
+}
+
+.main {
+    margin: 0 auto;
+    max-width: 80%;
+    background-color: $background-alternative-color;
+    overflow: auto;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    min-height: 100%;
+    padding: 5%;
+}
+
+img {
+    max-width: 100%;
+}
+
+ol, ul {
+    padding-left: 1.5em;
+}
+
+table {
+    margin: 0 auto;
+}
+

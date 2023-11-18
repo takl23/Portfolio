@@ -1,0 +1,122 @@
+$old-fashion-font: Garamond, serif;
+$modern-font: Verdana, sans-serif; /*sans-serif väljs om Verdana inte lyckas laddas*/
+$base-line-height: 1.4; /*En multipel av textstorleken*/
+$base-font-size: 1.4em;
+/*radavstånd mellan stycke rekkomenderat att ta line-height*fontsize rem*/
+
+@mixin line-height-and-font-size($font: sans-serif) {
+    line-height: $base-line-height;
+    font-size: $base-font-size;
+    font-family: $font;
+}
+
+
+.old-fashioned {
+    margin-bottom: 1.96rem;
+    margin: 1.96rem auto;
+    background-color: rgb(251, 237, 220);
+    color: rgb(0, 0, 0);
+    letter-spacing: 1px;
+    @include line-height-and-font-size($old-fashion-font);
+}
+
+.modern {
+    font-family: Verdana;
+    margin-bottom: 1.96rem;
+    margin: 1.96rem auto;
+    color: #333;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    width: 64rem; 
+    @include line-height-and-font-size($modern-font);
+}
+
+.worst-ever {
+    font-size: 1.4em;
+    font-family: fantasy;
+    line-height: 0.5;
+    width: 64rem; /* rem-rotelementets storlek. Man vill hamna någonstans mellan 50-90 tecken på en textrad*/
+    margin-bottom: 1.96rem;
+    margin: 1.96rem auto; 
+    color: #333;
+    letter-spacing: -3px;
+}
+
+/*gradient scale with mixin*/
+/* COLOR VARIABLES
+============================================= */
+$purpel: #C133FF;
+$blue: #2A40C9;
+$orange: #E2921F;
+
+/* GRADIENT LISTS
+============================================= */
+
+$list1: $purpel, $blue, $orange;  
+$direction: to left;
+
+@mixin gradient($direction, $list) { 
+    
+    background: linear-gradient($direction, $list);    
+}
+
+
+.wrapper1 {
+    position: relative;
+    overflow: hidden;
+    width: 500px;
+    margin: 0 auto;
+}
+  
+.bar {
+    height: 50px;
+    width: 100%;
+    margin-top:10px;
+}
+  
+  
+.one1 {
+    @include gradient($direction, $list1);
+}
+
+/*testing*/
+
+.first-box {
+    box-sizing: content-box;
+    background-color: #000;
+    height: 10vh;
+    width: 60vb;
+}
+
+.second-box {
+    box-sizing: content-box;
+    background-color: #02f;
+    height: 20vh;
+    width: 120vb;
+}
+
+.third-box {
+    box-sizing: border-box;
+    background-color: #f00;
+    height: 20dvw;
+    width: 50vw;
+}
+
+.fourth-box {
+    box-sizing: border-box;
+    background-color: #37ff00;
+    height: 100vw;
+    width: 100vw;
+}
+
+/*.test-grid {
+    display: grid;
+    justify-content: center;
+    grid-column: span 1;
+    grid-column-start: 1;
+    overflow: hidden;
+}
+
+.test-flex {
+    max-width: 45rem;
+}*/

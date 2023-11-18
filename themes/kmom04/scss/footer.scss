@@ -1,0 +1,37 @@
+.footer {
+    border-top: $border-heavy;
+    background: $background-linear-gradient;
+    padding: 1rem 6rem 4rem;
+    
+    * {
+        color: $font-alternative-color;
+        text-decoration: none;
+    }
+
+    li:hover, a:hover, i:hover {
+        color: $hover-color;
+    }
+
+    .social {
+        font-size: 2rem;
+        text-align: right;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        /*gap: max 60%;*/
+    }    
+
+    .row > .col2 {
+        width: calc(100% /2);
+        box-sizing: border-box;
+    }
+
+    .row h4 {
+        text-decoration: $border-light;
+    
+    }
+
+}

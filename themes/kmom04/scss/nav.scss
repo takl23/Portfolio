@@ -1,0 +1,16 @@
+.nav a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav li {
+    background-color: $background-meny;
+    border: 2px solid $border-color;
+    border-radius: 20%;
+}
+
+
+.nav li:hover {
+    background-color: $hover-color;
+}
