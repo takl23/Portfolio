@@ -4,7 +4,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'variables';
 @import 'mixin';
 
-@import 'typography';
+@import 'typography_dark';
 @import 'base';
 @import 'header';
 @import 'footer';
@@ -28,6 +28,9 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 
 /* Längst ner i min style-dark.scss */
+body {
+    background-color: rgb(99, 99, 99);
+}
 .main {
-    background-color: rgb(51, 163, 255);
+    background-color: rgb(48, 47, 43);
 }

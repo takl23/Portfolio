@@ -6378,7 +6378,7 @@ template {
 /*1.4*1 $base-line-height*$base-font-size*/
 * {
   font-family: "Open Sans", sans-serif;
-  color: #333;
+  color: #fff;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -6943,6 +6943,10 @@ pre code {
   }
 }
 /* Längst ner i min style-dark.scss */
+body {
+  background-color: rgb(99, 99, 99);
+}
+
 .main {
-  background-color: rgb(51, 163, 255);
+  background-color: rgb(48, 47, 43);
 }
