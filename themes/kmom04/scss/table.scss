@@ -1,0 +1,37 @@
+
+div.analysis-table+table { 
+    display: block;
+    overflow-x: auto;
+    max-width: fit-content;
+}
+
+table {
+    max-width: 100%;
+    width: 100%;
+    font-size: $body-font-size;
+    border-collapse: collapse;
+    
+    border: $border-light;
+    
+    tr:nth-child(2n) {
+        background-color: $background-color;
+
+    }
+
+    th {
+        text-align: left;
+    }
+
+    td {
+        border-top: $border-light;
+    }
+
+    th, td {
+        padding: 0.8rem 1.2rem;
+    }
+
+}
+
+.overflow-table {
+    overflow-x: auto; 
+} 

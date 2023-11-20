@@ -6818,6 +6818,36 @@ pre code {
   color: #fff;
 }
 
+div.analysis-table + table {
+  display: block;
+  overflow-x: auto;
+  max-width: fit-content;
+}
+
+table {
+  max-width: 100%;
+  width: 100%;
+  font-size: 1.1rem;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+table tr:nth-child(2n) {
+  background-color: #eee;
+}
+table th {
+  text-align: left;
+}
+table td {
+  border-top: 1px solid #ccc;
+}
+table th, table td {
+  padding: 0.8rem 1.2rem;
+}
+
+.overflow-table {
+  overflow-x: auto;
+}
+
 .slide {
   overflow-y: hidden !important;
   transition: height 0.5s ease-in !important;
