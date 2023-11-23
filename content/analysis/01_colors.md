@@ -5,7 +5,7 @@ Template: report
 ---
 
 # Webbplatsers färgval och känslan de signalerar
-<base target="_blank">
+
 I denna rapport har webbplatsers känsla och signaler studerats. Fokus i analysen har lagts på färgpalett och vilken känsla färgpaletten ger samt så har typografin analyserats. 
 
 Urval
