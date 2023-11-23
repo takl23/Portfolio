@@ -61,58 +61,56 @@ Förstasidan på forsakringskassan.se har en ljusgrå bakgrund. I sidhuvudet och
 
 Innehållet på sidan deals in i vita rutor med svart text. I de olika rutorna hittar man även figurer i lite mera dovare färger som representerar olika kategorier.
 
+I menyn så kategoriseras allt enligt färg,, dock i något ljusare ton än på första sidans rutor.
+
 Nedan presenteras bilder på försäkringskassans första sida samt en till sida på webbplatsen och färgskalor som plockats ut från hemsidan.
 
 ![forsakringskassan](../image/forsakringskassan.png "forsakringskassan")
 
-Dominerande färger på hemsidan:
+Färger på hemsidan:
 
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
 <td style="height: 50px; width: 50px; background-color: #116a3e; color: #ffffff;"> #116a3e 
-<td style="height: 50px; width: 50px; background-color: #ffffff"> #ffffff
-<td style="height: 50px; width: 50px; background-color: #e6e6e6"> #e6e6e6
-<td style="height: 50px; width: 50px; background-color: #1b1e23; color: #ffffff;"> #1b1e23
+<td style="height: 50px; width: 50px; background-color: #0c4329; color: #ffffff;"> #0c4329
+<td style="height: 50px; width: 50px; background-color: #a6d0ab;"> #a6d0ab 
+<td style="height: 50px; width: 50px; background-color: #434ee4; color: #ffffff;"> #434ee4
 </tr>
-</table>
 
-Accentfärger:
 
-<table style="border-spacing: 4px; border-collapse: separate">
 <tr>
 <td style="height: 50px; width: 50px; background-color: #bf8a21"> #bf8a21
 <td style="height: 50px; width: 50px; background-color: #4c669f; color: #ffffff;"> #4c669f
 <td style="height: 50px; width: 50px; background-color: #d34503"> #d34503
 <td style="height: 50px; width: 50px; background-color: #a73a64; color: #ffffff;"> #a73a64
 </tr>
+
+<tr>
+<td style="height: 50px; width: 50px; background-color: #f2e7d2"> #f2e7d2
+<td style="height: 50px; width: 50px; background-color: #dbe0ec"> #dbe0ec
+<td style="height: 50px; width: 50px; background-color: #f6dacd"> #f6dacd
+<td style="height: 50px; width: 50px; background-color: #edd7e0; color: #ffffff;"> #edd7e0
+</tr>
+
 </table>
 
 #### SVT Play
 SVT plays första sidan har en mörk bakgrund och olika klipp delas in i rutor som har lite ljusare färg än den mörka svarta eller så är dom bara inramade ned skuggning och transparens så man tydligt särskiljer gränserna mellan olika klipp på sidan. Texten på hemsidan är vit.
 
-Då klippen som man presenterar är färgrika så är övrig färg på hemsidan nedtonad, men inslag av andra färger finns för att tex framhäva höstens serier eller omtalade dokumentärer.
+Inslag av andra färger på hemsidan används sparsamt och används då för att tex framhäva höstens serier eller omtalade dokumentärer.
 
-Sidhuvudet har samma färg som resten av hemsidan. Sidfoten längs ner på sidan är gjord i en mörkare svart färg och här hittas behändig information som är indelad i fyra delar där uppdelningen är gjord med linjer. 
+Sidhuvudet har samma färg som resten av hemsidan. Sidfoten längs ner på sidan är gjord i en mörkare svart färg och här hittas behändig information som är indelad i fyra delar där uppdelningen är gjord med linjer i en ljusare ton. 
  
 ![svt1](../image/svt1.png "svt1")
 
 ![svt2](../image/svt2.png "svt2")
 
-Dominerande färger på hemsidan:
+Färger på hemsidan:
 
 <table style="border-spacing: 4px; border-collapse: separate">
-<tr>
-<td style="height: 50px; width: 50px; background-color: #1b1614; color: #ffffff;"> #1b1614 
-<td style="height: 50px; width: 50px; background-color: #211d1b; color: #ffffff;"> #211d1b 
-<td style="height: 50px; width: 50px; background-color: #e6e6e6"> #e6e6e6
-<td style="height: 50px; width: 50px; background-color: #000000; color: #ffffff;"> #000000
-<td style="height: 50px; width: 50px; background-color: #ffffff"> #ffffff
-</tr>
-</table>
 
-Accentfärger:
-<table style="border-spacing: 4px; border-collapse: separate">
 <tr>
+<td style="height: 50px; width: 50px; background-color: #00c800"> #00c800;
 <td style="height: 50px; width: 50px; background: linear-gradient(150deg, rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.3) 9%, transparent 30%), linear-gradient(125deg, rgba(55, 13, 76, 0.93) 10%, rgba(55, 13, 76, 0.5) 100%); color: #ffffff;"> linear-gradient(150deg, rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.3) 9%, transparent 30%), linear-gradient(125deg, rgba(55, 13, 76, 0.93) 10%, rgba(55, 13, 76, 0.5) 100%);
 <td style="height: 50px; width: 50px; background-color: #ff4b7d"> #ff4b7d
 <td style="height: 50px; width: 50px; background: linear-gradient(150deg, rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.3) 9%, transparent 30%), linear-gradient(125deg, rgba(21, 41, 70, 0.93) 10%, rgba(21, 41, 70, 0.5) 100%); color: #ffffff;"> linear-gradient(150deg, rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.3) 9%, transparent 30%), linear-gradient(125deg, rgba(21, 41, 70, 0.93) 10%, rgba(21, 41, 70, 0.5) 100%);
@@ -120,71 +118,61 @@ Accentfärger:
 </tr>
 </table>
 
+<table style="border-spacing: 4px; border-collapse: separate">
+<tr>
+<td style="height: 50px; width: 50px; background-color: #1b1614; color: #ffffff;"> #1b1614
+<td style="height: 50px; width: 50px; background-color: #211d1b; color: #ffffff;"> #211d1b
+<td style="height: 50px; width: 50px; background-color: #ffffff;"> #ffffff
+</tr>
+</table>
+
 #### H&M
 Förstasidan för H&M består av en helvit bakgrund där innehållet presenteras och även sidhuvudet. Sidfoten å andra sidan särskiljs med en annan färg, en ljusare grå ton. Texten på hemsidan är svart.
 
-I övrigt är det sparsamt med färg och det som sticker ut är den röda färgen på loggan samt alla färger på klädesplaggen.
+I övrigt är det sparsamt med färg och det som sticker ut är den röda färgen på loggan.
 
 ![hm1](../image/hm1.png "hm1")
 
 ![hm2](../image/hm2.png "hm2")
 
-Dominerande färger på hemsidan:
-
+Färger på hemsidan:
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
+<td style="height: 50px; width: 50px; background-color: #312d2e; color: #ffffff;"> #222222
+<td style="height: 50px; width: 50px; background-color: #707070;"> #707070
 <td style="height: 50px; width: 50px; background-color: #faf9f8;"> #faf9f8
-<td style="height: 50px; width: 50px; background-color: #222222; color: #ffffff;"> #222222
-<td style="height: 50px; width: 50px; background-color: #707070; color: #ffffff;"> #707070
-
-
-</tr>
-</table>
-
-Accentfärger:
-
-<table style="border-spacing: 4px; border-collapse: separate">
-<tr>
 <td style="height: 50px; width: 50px; background-color: #f1ebdf;"> #f1ebdf
-
 <td style="height: 50px; width: 50px; background-color: #e50010;"> #e50010
-
 </tr>
 </table>
 
 Analys
 -----------------------
 
-Diskutera och analysera de resultaten du fann.
-
 #### Försäkringskassan
 Försäkringskassan är en myndighetssida och jag upplever sidan som organiserad och att val av färg och indelning är gjord för att just lätt hitta rätt kategori för ens ärende.
 
-Typografin på hemsidan är en standard sans-serif font som upplevs som lättläst och tydlig. Text på hemsidan presenteras tydligt också då svart text mot vit bakgrund skapar en bra kontrast. Texten på hemsidan har också en lite nedtonad svart färg, #1b1e23, vilket gör att konstrasten inte är skarp mot den klarvita färgen, #ffffff, för ögat utan mjukas upp lite. 
+Typografin på hemsidan är en standard sans-serif font som upplevs som lättläst och tydlig. Text på hemsidan presenteras tydligt också då svart text mot vit bakgrund skapar en bra kontrast. 
  
-Färger i övrigt på hemsidan visar tendenser till ett triadiskt färgschema om man väljer att kika på tre färger i taget, men annars ser det mer ut som om man valt en färg från varje tårtbit för att skapa tydliga kontraster mellan färgerna där vardera färgen representerar en kategori. Bild nedan har skapats i färghjulet ["color-wheel"][02] från Adobe. 
- 
-![forsakringskassan farganalys](../image/forsakringskassan_farganalys.png "forsakringskassan farganalys")
+Inom respektive kategori så ser man att man har använt sig av monokrom färgsättning vilket även applicerats på färgen grön som är färgen som kännetecknar försäkringskassan och är den som knyter ihop hela webbplatsen. Färger på hemsidan mellan varje kategori så känns det som om man valt en färg i varje tårtbit i färgcirkeln, men svårt att säga att det följer något specifikt färgschema baserat på kunskapen jag fhar idag. 
 
-På hemsidan ser man att indelningar av kategorier är gjorda i rutor där det ser ut som om man används sig av en viss transparens och skuggning för att skapa tydligare rutor.
+![forsakringskassan farganalys](../image/forsakringskassan_farganalys.png "forsakringskassan farganalys")
 
 #### SVT Play
 SVT play skapar en biokänsla på grund av det mörka temat och klippen som upplevs som affischer. Vit text mot svart bakgrund gör att den stora textmassan är enkle att läsa. Typografin som har valts är dock ingen standardfont. Man har valt fonten [Public][03] som ändå upplevs tydlig. 
 
 I det stora hela har man färgsatt hemsidan sparsamt vilket är klok då klippen får stå för den stora färgklicken. Man har dock valt att färglägga ytor när man vill framhäva vissa saker, som tex 'höstens serier' eller 'omtalade dokumentärer' och där har man använd sig av skarpare textfärger mot en bakgrund som är gradientutformad för att få det att sticka ut. 
 
-Har inte tydligt kunna peka på hur man gått tillväga när man färgsatt sidan mer än att man har skapat tydliga kontraster mellan färgerna samt försökt skapa lite bio-känsla. Några av färgerna som hittades åt på SVTs hemsida sattes in i färghjulet ["color-wheel"][02] från Adobe. Utfallet ser man nedan. Inget som tyder på att man varken använt ett monokromatiskt, kompletterande, analogt eller triadiskt färgschema. Den lila och blåa färgen i hjulet är plockade ur gradientskalorna som används på hemsidan.  
+Har inte tydligt kunna peka på hur man gått tillväga när man färgsatt sidan mer än att man har skapat tydliga kontraster mellan färgerna samt försökt skapa lite bio-känsla. Några av färgerna som hittades åt på SVTs hemsida sattes in i färghjulet ["color-wheel"][02] från Adobe. Utfallet ser man nedan. Inget som tyder på tydligt val av färgschema, men man kan säga att färger valts i olika kakor på cirklen för att skapa tydliga kontraster.
 
 ![svt farganalys](../image/svt_farganalys.png "svt farganalys")
-
-Det som är den stora frågan när det kommer till just SVT Play är att detta är något som skattebetalarna bekostar, och då är frågan om det finns grupper i samhället som kan uppleva sidan som rörig och kanske svår att orientera sig i. Å andra sidan så ska hemsidan vara en attraktiv streaming plats som skapar en viss känsla för att attrahera tittare, så blir en svår avvägning. 
 
 #### H&M
 H&Ms hemsida tycker jag representerar en ren känsla där kläderna får vara i fokus då man har använt sparsamt med färg. 
 
 Typografin som används är HM Sans vilket är en egenutvecklad typografi för H&M. Det man generellt kan säga om texterna på hemsidan är att det inte finns stora textpartier och att texterna är lite mindre i genomsnitt är min upplevelse. I alla fall på första sidan. Men det tror jag återigen beror på att man vill att kläderna ska vara i fokus. 
 
-Kan inte se att man använt sig av ett tydligt koncept när man valt färg mer en att man har centrerat färgerna på färgskalan och att loggan och extra erbjudanden och likande använder sig av en stark kontrasterande färg gentemot alla andra färger på hemsidan. Nedan presenteras färgerna som plockats ut på hemsidan i färghjulet ["color-wheel"][02] från Adobe.
+Kan inte se att man använt sig av ett tydligt koncept när man valt färg om man inte ska påstå att man valt ett monokromt tema med toner i svart, vitt och beigt och brutit av med den röda färgen. Nedan presenteras färgerna som plockats ut på hemsidan i färghjulet ["color-wheel"][02] från Adobe.
 
 ![H&M farganalys](../image/hm_farganalys.png "H&M farganalys")
 
