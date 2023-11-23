@@ -6818,18 +6818,18 @@ pre code {
   color: #fff;
 }
 
-div.analysis-table + table {
+div .analysis + table {
   display: block;
   overflow-x: auto;
   max-width: fit-content;
+  width: 100%;
 }
 
 table {
   max-width: 100%;
-  width: 100%;
   font-size: 1.1rem;
   border-collapse: collapse;
-  border: 1px solid #ccc;
+  font-size: 0.9rem;
 }
 table tr:nth-child(2n) {
   background-color: #eee;
