@@ -178,6 +178,7 @@ Kan inte se att man använt sig av ett tydligt koncept när man valt färg om ma
 
 Referenser
 -----------------------
+<i>Referenser senast kontrollerade 2023-11-23.</i>
 [link name]: link.com
 
 [01]: https://www.mozilla.org/en-US/firefox/120.0beta/releasenotes/?utm_source=firefox-browser&utm_medium=firefox-desktop&utm_campaign=about-dialog
