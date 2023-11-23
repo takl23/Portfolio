@@ -6372,6 +6372,7 @@ template {
 }
 
 /*color*/
+/*$background-linear-gradient: linear-gradient(to bottom, #93995A, #534B59); */
 /*borders*/
 /*typography variables*/
 /*En multipel av textstorleken*/
@@ -6410,7 +6411,7 @@ html {
 }
 
 body {
-  background-color: #eee;
+  background-color: #7CA393;
   overflow-y: scroll;
   height: 100%;
 }
@@ -6443,8 +6444,8 @@ table {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: linear-gradient(to bottom, #666, #000);
-  border-bottom: 4px solid #444;
+  background: #374E44;
+  border-bottom: 4px solid #3F353A;
   /* Title */
   /*responsivity*/
 }
@@ -6464,7 +6465,7 @@ table {
   font-style: italic;
 }
 .header .title h1:hover {
-  color: rgb(225, 169, 225);
+  color: #A3827C;
 }
 @media (max-width: 767px) {
   .header .title, .header .logo {
@@ -6491,8 +6492,8 @@ table {
 }
 
 .footer {
-  border-top: 4px solid #444;
-  background: linear-gradient(to bottom, #666, #000);
+  border-top: 4px solid #3F353A;
+  background: #374E44;
   padding: 1rem 6rem 4rem;
 }
 .footer * {
@@ -6500,7 +6501,7 @@ table {
   text-decoration: none;
 }
 .footer li:hover, .footer a:hover, .footer i:hover {
-  color: rgb(225, 169, 225);
+  color: #A3827C;
 }
 .footer .social {
   font-size: 2rem;
@@ -6517,13 +6518,13 @@ table {
   box-sizing: border-box;
 }
 .footer .row h4 {
-  text-decoration: 1px solid #ccc;
+  text-decoration: 1px solid #A3827C;
 }
 
 .portfolio {
   display: block;
   width: 10em;
-  border: 4px solid #444;
+  border: 4px solid #3F353A;
 }
 
 .logo img {
@@ -6539,13 +6540,13 @@ table {
 }
 
 .nav li {
-  background-color: rgb(151, 81, 151);
-  border: 2px solid rgb(204, 0, 255);
+  background-color: #63524F;
+  border: 2px solid #331F1C;
   border-radius: 20%;
 }
 
 .nav li:hover {
-  background-color: rgb(225, 169, 225);
+  background-color: #A3827C;
 }
 
 blockquote {
@@ -6757,7 +6758,7 @@ pre code {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid rgb(204, 0, 255);
+  border: 4px solid #3F353A;
   font-weight: bold;
 }
 .box a {
@@ -6777,7 +6778,7 @@ pre code {
 }
 
 .landingpage div:hover {
-  background-color: rgb(225, 169, 225);
+  background-color: #A3827C;
 }
 
 .technology-single {
@@ -6790,7 +6791,7 @@ pre code {
 .technology-menu {
   width: 25%;
   min-height: 100vh;
-  border-right: 1px solid #ccc;
+  border-right: 1px solid #A3827C;
   padding-left: 1em;
   padding-right: 1em;
   padding-top: 24px;
@@ -6805,14 +6806,14 @@ pre code {
   text-decoration: none;
 }
 .technology-menu li:hover, .technology-menu a:hover {
-  color: rgb(225, 169, 225);
+  color: #A3827C;
 }
 
 .technology-content {
   width: 55%;
 }
 .technology-content pre {
-  background: linear-gradient(to bottom, #666, #000);
+  background: #374E44;
 }
 .technology-content code {
   color: #fff;
@@ -6832,13 +6833,13 @@ table {
   font-size: 0.9rem;
 }
 table tr:nth-child(2n) {
-  background-color: #eee;
+  background-color: #7CA393;
 }
 table th {
   text-align: left;
 }
 table td {
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #A3827C;
 }
 table th, table td {
   padding: 0.8rem 1.2rem;
@@ -6944,7 +6945,7 @@ table th, table td {
   }
   .footer .social {
     text-align: center;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #A3827C;
     padding-top: 10%;
   }
 }

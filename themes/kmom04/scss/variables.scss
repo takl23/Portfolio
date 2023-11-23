@@ -4,19 +4,20 @@
 $font-color: #333;
 $font-alternative-color: #fff;
 
-$background-color: #eee;
+$background-color: #7CA393;
 $background-alternative-color: #fff;
-$background-linear-gradient: linear-gradient(to bottom, #666, #000); 
+/*$background-linear-gradient: linear-gradient(to bottom, #93995A, #534B59); */
+$background-linear-gradient: #374E44;
 
-$background-meny: rgb(151, 81, 151);
+$background-meny: #63524F;
 
-$border-color: rgb(204, 0, 255);
+$border-color: #331F1C;
 
-$hover-color: rgb(225, 169, 225);
+$hover-color: #A3827C;
 
 /*borders*/
-$border-light: 1px solid #ccc;
-$border-heavy: 4px solid #444;
+$border-light: 1px solid #A3827C;
+$border-heavy: 4px solid #3F353A;
 
 /*typography variables*/
 $header-font: 'Roboto', sans-serif;
