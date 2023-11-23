@@ -1,10 +1,10 @@
 @import '../../shared/fontawesome/scss/fontawesome';
 $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../node_modules/normalize.css/normalize';
-@import 'variables';
+@import 'variables_dark';;
 @import 'mixin';
 
-@import 'typography_dark';
+@import 'typography';
 @import 'base';
 @import 'header';
 @import 'footer';
@@ -23,15 +23,6 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'test';
 
 @import 'technology';
+@import 'table';
 @import 'mobile-menu';
 @import 'responsivity';
-
-
-/* Längst ner i min style-dark.scss */
-body {
-    background-color: rgb(99, 99, 99);
-}
-
-.main {
-    background-color: rgb(48, 47, 43);
-}

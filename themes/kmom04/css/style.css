@@ -6444,8 +6444,8 @@ table {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #374E44;
-  border-bottom: 4px solid #3F353A;
+  background: #7CA393;
+  border-bottom: 4px solid #A3827C;
   /* Title */
   /*responsivity*/
 }
@@ -6465,7 +6465,7 @@ table {
   font-style: italic;
 }
 .header .title h1:hover {
-  color: #A3827C;
+  color: #63524F;
 }
 @media (max-width: 767px) {
   .header .title, .header .logo {
@@ -6492,8 +6492,8 @@ table {
 }
 
 .footer {
-  border-top: 4px solid #3F353A;
-  background: #374E44;
+  border-top: 4px solid #A3827C;
+  background: #7CA393;
   padding: 1rem 6rem 4rem;
 }
 .footer * {
@@ -6501,7 +6501,7 @@ table {
   text-decoration: none;
 }
 .footer li:hover, .footer a:hover, .footer i:hover {
-  color: #A3827C;
+  color: #63524F;
 }
 .footer .social {
   font-size: 2rem;
@@ -6524,7 +6524,7 @@ table {
 .portfolio {
   display: block;
   width: 10em;
-  border: 4px solid #3F353A;
+  border: 4px solid #A3827C;
 }
 
 .logo img {
@@ -6540,13 +6540,13 @@ table {
 }
 
 .nav li {
-  background-color: #63524F;
+  background-color: #A3827C;
   border: 2px solid #331F1C;
   border-radius: 20%;
 }
 
 .nav li:hover {
-  background-color: #A3827C;
+  background-color: #63524F;
 }
 
 blockquote {
@@ -6758,7 +6758,7 @@ pre code {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 4px solid #3F353A;
+  border: 4px solid #A3827C;
   font-weight: bold;
 }
 .box a {
@@ -6778,7 +6778,7 @@ pre code {
 }
 
 .landingpage div:hover {
-  background-color: #A3827C;
+  background-color: #63524F;
 }
 
 .technology-single {
@@ -6806,14 +6806,14 @@ pre code {
   text-decoration: none;
 }
 .technology-menu li:hover, .technology-menu a:hover {
-  color: #A3827C;
+  color: #63524F;
 }
 
 .technology-content {
   width: 55%;
 }
 .technology-content pre {
-  background: #374E44;
+  background: #7CA393;
 }
 .technology-content code {
   color: #fff;
