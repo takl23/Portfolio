@@ -1,0 +1,83 @@
+/*responsivity*/
+
+@media (max-width: 767px) {
+    .title, .logo {
+        padding: 1em 1em 1em 0;
+    }
+    
+    .title {
+        min-width: 50%;
+    }
+    
+    .logo {
+        max-width: 30%;
+    }
+}
+
+
+@media (max-width: 300px) {
+    * {
+        font-size: small;
+    }
+
+    .title, .logo {
+        padding: 1em 1em 1em 0;
+    }
+
+    .title {
+        min-width: 50%;
+    }
+
+    .logo {
+        display: none;
+    }
+}
+
+@media (max-width: 450px) {
+    .footer .row {
+        flex-wrap: wrap;
+    }
+  
+    .footer .row > .col2 {
+        width: 100%;
+    }
+
+    .footer .social {
+        text-align: center;
+        border-top: $border-light;
+        padding-top: 10%;
+    }
+}
+
+@media (min-width: 960px) {
+    .main {
+        p, h1, h2, h3, h4, h5, h6, ol, ul, pre {
+            max-width: $text-width;  
+            margin: $margin;
+        }
+    } 
+    
+}
+
+@media (max-width: 960px) {
+    .landingpage {
+        padding: 0.5em;
+        grid-gap: 0.5em;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .landingpage h1 {
+        grid-column: span 1;
+    }
+
+    .c-one, .c-two, .c-three {
+        grid-column: span 1;
+    }
+}
+
+@media (max-width: 1200px) {
+    .technology-menu h2, li {
+        font-size: smaller;
+    }
+
+}

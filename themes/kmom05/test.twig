@@ -1,0 +1,22 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+
+    <div class="main" role="main">
+        <div class="test-grid">
+        <div class="test-flex">
+            {{ content }}
+            # Som vanligt
+<img class="flash-img" src="{{ assets_url }}/img/leaf_256x256.png">
+# Via Cimage
+<img class="flash-img" src="{{ base_url }}/image/leaf_256x256.png">
+            </div>
+        </div>
+    </div>    
+    
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>
