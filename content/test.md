@@ -76,7 +76,7 @@ Filter:
 ![Leaf](image/leaf_256x256.png?blur)
 ![Leaf](image/leaf_256x256.png?f=contrast,50)
 
-Responsiva bilder:
+Responsiva bilder, https://dbwebb.se/kunskap/hur-kan-vi-gora-det-responsivt:
 
 Se exempelmappen responsiva bilder. I cimage kan samma sak göras för sheep. Se nedan. 
 
@@ -84,3 +84,7 @@ Se exempelmappen responsiva bilder. I cimage kan samma sak göras för sheep. Se
     <source media="(min-width: 668px)" srcset="%base_url%/image/sheep.jpg">
     <img src="%base_url%/image/sheep.jpg&w=20" alt="A sheep">
 </picture>
+
+<div class="embed-container">
+    <iframe src="https://www.youtube.com/embed/gCwjLPBqpa0" frameborder="0" allowfullscreen></iframe>
+</div>
