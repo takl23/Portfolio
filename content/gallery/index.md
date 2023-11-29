@@ -1,12 +1,19 @@
 ---
 Title: Galleri
 Description: This is my gallery page
-Template: test
 ---
 
 Galleri
 ==========================
 
-<div class="box c-three">
-<a href="%base_url%?analysis/01_colors"> 01_Webbplatsers färgval och känslan de signalerar</a>
+<div class="gallery">
+
+<picture>
+    <img src="%assets_url%/img/sheep.jpg" alt="A sheep">
+</picture>
+
+<picture>
+    <source media="(min-width: 668px)" srcset="%base_url%/image/sheep.jpg">
+    <img src="%base_url%/image/sheep.jpg&w=667" alt="A sheep">
+</picture>
 </div>

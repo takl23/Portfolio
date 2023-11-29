@@ -6371,6 +6371,58 @@ template {
   display: none;
 }
 
+/*!
+ * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
+@font-face {
+  font-family: "Font Awesome 5 Brands";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("../../shared/fontawesome/webfonts/fa-brands-400.eot");
+  src: url("../../shared/fontawesome/webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../../shared/fontawesome/webfonts/fa-brands-400.woff2") format("woff2"), url("../../shared/fontawesome/webfonts/fa-brands-400.woff") format("woff"), url("../../shared/fontawesome/webfonts/fa-brands-400.ttf") format("truetype"), url("../../shared/fontawesome/webfonts/fa-brands-400.svg#fontawesome") format("svg");
+}
+.fab {
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 400;
+}
+
+/*!
+ * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
+@font-face {
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url("../../shared/fontawesome/webfonts/fa-solid-900.eot");
+  src: url("../../shared/fontawesome/webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../../shared/fontawesome/webfonts/fa-solid-900.woff2") format("woff2"), url("../../shared/fontawesome/webfonts/fa-solid-900.woff") format("woff"), url("../../shared/fontawesome/webfonts/fa-solid-900.ttf") format("truetype"), url("../../shared/fontawesome/webfonts/fa-solid-900.svg#fontawesome") format("svg");
+}
+.fa,
+.fas {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
+/*!
+ * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
+@font-face {
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("../../shared/fontawesome/webfonts/fa-regular-400.eot");
+  src: url("../../shared/fontawesome/webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("../../shared/fontawesome/webfonts/fa-regular-400.woff2") format("woff2"), url("../../shared/fontawesome/webfonts/fa-regular-400.woff") format("woff"), url("../../shared/fontawesome/webfonts/fa-regular-400.ttf") format("truetype"), url("../../shared/fontawesome/webfonts/fa-regular-400.svg#fontawesome") format("svg");
+}
+.far {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 400;
+}
+
 /*color*/
 /*$background-linear-gradient: linear-gradient(to bottom, #93995A, #534B59); */
 /*borders*/
@@ -6427,7 +6479,7 @@ body {
   padding: 5%;
 }
 
-img {
+img, embed, object, video {
   max-width: 100%;
 }
 
@@ -6437,6 +6489,18 @@ ol, ul {
 
 table {
   margin: 0 auto;
+}
+
+.portfolio {
+  display: block;
+  width: 10em;
+  border: 4px solid #3F353A;
+}
+
+.logo img {
+  display: block;
+  width: 75%;
+  padding: 5%;
 }
 
 .header {
@@ -6521,18 +6585,6 @@ table {
   text-decoration: 1px solid #A3827C;
 }
 
-.portfolio {
-  display: block;
-  width: 10em;
-  border: 4px solid #3F353A;
-}
-
-.logo img {
-  display: block;
-  width: 75%;
-  padding: 5%;
-}
-
 .nav a {
   font-size: 1.1rem;
   text-decoration: none;
@@ -6549,6 +6601,69 @@ table {
   background-color: #A3827C;
 }
 
+/*responsivity*/
+@media (max-width: 767px) {
+  .title, .logo {
+    padding: 1em 1em 1em 0;
+  }
+  .title {
+    min-width: 50%;
+  }
+  .logo {
+    max-width: 30%;
+  }
+}
+@media (max-width: 300px) {
+  * {
+    font-size: small;
+  }
+  .title, .logo {
+    padding: 1em 1em 1em 0;
+  }
+  .title {
+    min-width: 50%;
+  }
+  .logo {
+    display: none;
+  }
+}
+@media (max-width: 450px) {
+  .footer .row {
+    flex-wrap: wrap;
+  }
+  .footer .row > .col2 {
+    width: 100%;
+  }
+  .footer .social {
+    text-align: center;
+    border-top: 1px solid #A3827C;
+    padding-top: 10%;
+  }
+}
+@media (min-width: 960px) {
+  .main p, .main h1, .main h2, .main h3, .main h4, .main h5, .main h6, .main ol, .main ul, .main pre {
+    max-width: 45rem;
+    margin: 1.54rem auto;
+  }
+}
+@media (max-width: 960px) {
+  .landingpage {
+    padding: 0.5em;
+    grid-gap: 0.5em;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .landingpage h1 {
+    grid-column: span 1;
+  }
+  .c-one, .c-two, .c-three {
+    grid-column: span 1;
+  }
+}
+@media (max-width: 1200px) {
+  .technology-menu h2, li {
+    font-size: smaller;
+  }
+}
 blockquote {
   font-style: italic;
   margin-left: 1em;
@@ -6584,158 +6699,6 @@ pre code {
   line-height: 1.4;
 }
 
-/*!
- * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
- * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
- */
-@font-face {
-  font-family: "Font Awesome 5 Brands";
-  font-style: normal;
-  font-weight: 400;
-  font-display: block;
-  src: url("../../shared/fontawesome/webfonts/fa-brands-400.eot");
-  src: url("../../shared/fontawesome/webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../../shared/fontawesome/webfonts/fa-brands-400.woff2") format("woff2"), url("../../shared/fontawesome/webfonts/fa-brands-400.woff") format("woff"), url("../../shared/fontawesome/webfonts/fa-brands-400.ttf") format("truetype"), url("../../shared/fontawesome/webfonts/fa-brands-400.svg#fontawesome") format("svg");
-}
-.fab {
-  font-family: "Font Awesome 5 Brands";
-  font-weight: 400;
-}
-
-/*!
- * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
- * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
- */
-@font-face {
-  font-family: "Font Awesome 5 Free";
-  font-style: normal;
-  font-weight: 900;
-  font-display: block;
-  src: url("../../shared/fontawesome/webfonts/fa-solid-900.eot");
-  src: url("../../shared/fontawesome/webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../../shared/fontawesome/webfonts/fa-solid-900.woff2") format("woff2"), url("../../shared/fontawesome/webfonts/fa-solid-900.woff") format("woff"), url("../../shared/fontawesome/webfonts/fa-solid-900.ttf") format("truetype"), url("../../shared/fontawesome/webfonts/fa-solid-900.svg#fontawesome") format("svg");
-}
-.fa,
-.fas {
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-}
-
-/*!
- * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
- * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
- */
-@font-face {
-  font-family: "Font Awesome 5 Free";
-  font-style: normal;
-  font-weight: 400;
-  font-display: block;
-  src: url("../../shared/fontawesome/webfonts/fa-regular-400.eot");
-  src: url("../../shared/fontawesome/webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("../../shared/fontawesome/webfonts/fa-regular-400.woff2") format("woff2"), url("../../shared/fontawesome/webfonts/fa-regular-400.woff") format("woff"), url("../../shared/fontawesome/webfonts/fa-regular-400.ttf") format("truetype"), url("../../shared/fontawesome/webfonts/fa-regular-400.svg#fontawesome") format("svg");
-}
-.far {
-  font-family: "Font Awesome 5 Free";
-  font-weight: 400;
-}
-
-/*sans-serif väljs om Verdana inte lyckas laddas*/
-/*En multipel av textstorleken*/
-/*radavstånd mellan stycke rekkomenderat att ta line-height*fontsize rem*/
-.old-fashioned {
-  margin-bottom: 1.96rem;
-  margin: 1.96rem auto;
-  background-color: rgb(251, 237, 220);
-  color: rgb(0, 0, 0);
-  letter-spacing: 1px;
-  line-height: 1.4;
-  font-size: 1.4em;
-  font-family: Garamond, serif;
-}
-
-.modern {
-  font-family: Verdana;
-  margin-bottom: 1.96rem;
-  margin: 1.96rem auto;
-  color: #333;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  width: 64rem;
-  line-height: 1.4;
-  font-size: 1.4em;
-  font-family: Verdana, sans-serif;
-}
-
-.worst-ever {
-  font-size: 1.4em;
-  font-family: fantasy;
-  line-height: 0.5;
-  width: 64rem; /* rem-rotelementets storlek. Man vill hamna någonstans mellan 50-90 tecken på en textrad*/
-  margin-bottom: 1.96rem;
-  margin: 1.96rem auto;
-  color: #333;
-  letter-spacing: -3px;
-}
-
-/*gradient scale with mixin*/
-/* COLOR VARIABLES
-============================================= */
-/* GRADIENT LISTS
-============================================= */
-.wrapper1 {
-  position: relative;
-  overflow: hidden;
-  width: 500px;
-  margin: 0 auto;
-}
-
-.bar {
-  height: 50px;
-  width: 100%;
-  margin-top: 10px;
-}
-
-.one1 {
-  background: linear-gradient(to left, #C133FF, #2A40C9, #E2921F);
-}
-
-/*testing*/
-.first-box {
-  box-sizing: content-box;
-  background-color: #000;
-  height: 10vh;
-  width: 60vb;
-}
-
-.second-box {
-  box-sizing: content-box;
-  background-color: #02f;
-  height: 20vh;
-  width: 120vb;
-}
-
-.third-box {
-  box-sizing: border-box;
-  background-color: #f00;
-  height: 20dvw;
-  width: 50vw;
-}
-
-.fourth-box {
-  box-sizing: border-box;
-  background-color: #37ff00;
-  height: 100vw;
-  width: 100vw;
-}
-
-/*.test-grid {
-    display: grid;
-    justify-content: center;
-    grid-column: span 1;
-    grid-column-start: 1;
-    overflow: hidden;
-}
-
-.test-flex {
-    max-width: 45rem;
-}*/
 .landingpage {
   display: grid;
   gap: 1em 1em;
@@ -6849,6 +6812,138 @@ table th, table td {
   overflow-x: auto;
 }
 
+/*sans-serif väljs om Verdana inte lyckas laddas*/
+/*En multipel av textstorleken*/
+/*radavstånd mellan stycke rekkomenderat att ta line-height*fontsize rem*/
+.old-fashioned {
+  margin-bottom: 1.96rem;
+  margin: 1.96rem auto;
+  background-color: rgb(251, 237, 220);
+  color: rgb(0, 0, 0);
+  letter-spacing: 1px;
+  line-height: 1.4;
+  font-size: 1.4em;
+  font-family: Garamond, serif;
+}
+
+.modern {
+  font-family: Verdana;
+  margin-bottom: 1.96rem;
+  margin: 1.96rem auto;
+  color: #333;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  width: 64rem;
+  line-height: 1.4;
+  font-size: 1.4em;
+  font-family: Verdana, sans-serif;
+}
+
+.worst-ever {
+  font-size: 1.4em;
+  font-family: fantasy;
+  line-height: 0.5;
+  width: 64rem; /* rem-rotelementets storlek. Man vill hamna någonstans mellan 50-90 tecken på en textrad*/
+  margin-bottom: 1.96rem;
+  margin: 1.96rem auto;
+  color: #333;
+  letter-spacing: -3px;
+}
+
+/*gradient scale with mixin*/
+/* COLOR VARIABLES
+============================================= */
+/* GRADIENT LISTS
+============================================= */
+.wrapper1 {
+  position: relative;
+  overflow: hidden;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.bar {
+  height: 50px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.one1 {
+  background: linear-gradient(to left, #C133FF, #2A40C9, #E2921F);
+}
+
+/*testing*/
+.first-box {
+  box-sizing: content-box;
+  background-color: #000;
+  height: 10vh;
+  width: 60vb;
+}
+
+.second-box {
+  box-sizing: content-box;
+  background-color: #02f;
+  height: 20vh;
+  width: 120vb;
+}
+
+.third-box {
+  box-sizing: border-box;
+  background-color: #f00;
+  height: 20dvw;
+  width: 50vw;
+}
+
+.fourth-box {
+  box-sizing: border-box;
+  background-color: #37ff00;
+  height: 100vw;
+  width: 100vw;
+}
+
+/*.test-grid {
+    display: grid;
+    justify-content: center;
+    grid-column: span 1;
+    grid-column-start: 1;
+    overflow: hidden;
+}
+
+.test-flex {
+    max-width: 45rem;
+}*/
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.gallery picture {
+  width: 45%;
+}
+
+.gallery img, .gallery source {
+  width: 100%;
+}
+
 .slide {
   overflow-y: hidden !important;
   transition: height 0.5s ease-in !important;
@@ -6908,68 +7003,5 @@ table th, table td {
   }
   .technology-content {
     width: 80%;
-  }
-}
-/*responsivity*/
-@media (max-width: 767px) {
-  .title, .logo {
-    padding: 1em 1em 1em 0;
-  }
-  .title {
-    min-width: 50%;
-  }
-  .logo {
-    max-width: 30%;
-  }
-}
-@media (max-width: 300px) {
-  * {
-    font-size: small;
-  }
-  .title, .logo {
-    padding: 1em 1em 1em 0;
-  }
-  .title {
-    min-width: 50%;
-  }
-  .logo {
-    display: none;
-  }
-}
-@media (max-width: 450px) {
-  .footer .row {
-    flex-wrap: wrap;
-  }
-  .footer .row > .col2 {
-    width: 100%;
-  }
-  .footer .social {
-    text-align: center;
-    border-top: 1px solid #A3827C;
-    padding-top: 10%;
-  }
-}
-@media (min-width: 960px) {
-  .main p, .main h1, .main h2, .main h3, .main h4, .main h5, .main h6, .main ol, .main ul, .main pre {
-    max-width: 45rem;
-    margin: 1.54rem auto;
-  }
-}
-@media (max-width: 960px) {
-  .landingpage {
-    padding: 0.5em;
-    grid-gap: 0.5em;
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .landingpage h1 {
-    grid-column: span 1;
-  }
-  .c-one, .c-two, .c-three {
-    grid-column: span 1;
-  }
-}
-@media (max-width: 1200px) {
-  .technology-menu h2, li {
-    font-size: smaller;
   }
 }
