@@ -1,6 +1,7 @@
 ---
 Title: Test page
 Description: This is our test page
+Template: test
 ---
 
 The source for this page is in `content/test.md`.
@@ -39,3 +40,44 @@ Nästa hyss han gjorde var när han i grönsakssoppan dök på huvet ner og sen 
 <div class="wrapper1"> 
   <div class="bar one1"></div> 
 </div>
+
+
+assets/img:
+[![Leaf](%assets_url%/img/leaf_256x256.png)](%assets_url%/img/leaf_256x256.png)
+cimage:
+[![Leaf](image/leaf_256x256.png?w=1072)](image/leaf_256x256.png)
+
+Hur stretch och crop-to-fit kan se ut:
+![Leaf](image/leaf_256x256.png?h=250&w=50&stretch)
+![Leaf](image/leaf_256x256.png?h=250&w=50&crop-to-fit)
+
+50% av dess originalbredd:
+![Leaf](image/header.jpg?width=50%)
+
+ Som exempel kan vi hämta ut halva dbwebb-lövet på följande sätt:
+![Leaf](image/leaf_256x256.png?area=50,0,0,0)
+![Leaf](image/leaf_256x256.png?area=0,50,0,0)
+![Leaf](image/leaf_256x256.png?area=0,0,50,0)
+![Leaf](image/leaf_256x256.png?area=0,0,0,50)
+
+Beskära de mittersta 50x50 på lövet:
+![Leaf](image/leaf_256x256.png?crop=50,50,100,100)
+
+Konvertera bilder mellan olika format:
+png funkar också men leaf är idag i png.
+![Leaf](image/leaf_256x256.png?width=50%&save-as=jpg)
+![Leaf](image/leaf_256x256.png?width=50%&save-as=gif)
+
+Skala kvalite:
+Testa och verifiera när du gör det.
+
+![Leaf](image/leaf_256x256.png?width=50%)
+![Leaf](image/leaf_256x256.png?width=50%&q=50)
+
+Filter:
+![Leaf](image/leaf_256x256.png?convolve=lighten)
+![Leaf](image/leaf_256x256.png?convolve=darken)
+![Leaf](image/leaf_256x256.png?blur)
+![Leaf](image/leaf_256x256.png?f=grayscale)
+![Leaf](image/leaf_256x256.png?f=brightness,50)
+![Leaf](image/leaf_256x256.png?f=contrast,50)
