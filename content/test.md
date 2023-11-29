@@ -54,19 +54,16 @@ Hur stretch och crop-to-fit kan se ut:
 50% av dess originalbredd:
 ![Leaf](image/header.jpg?width=50%)
 
- Som exempel kan vi hämta ut halva dbwebb-lövet på följande sätt:
+Hämta del av lövet:
 ![Leaf](image/leaf_256x256.png?area=50,0,0,0)
-![Leaf](image/leaf_256x256.png?area=0,50,0,0)
-![Leaf](image/leaf_256x256.png?area=0,0,50,0)
-![Leaf](image/leaf_256x256.png?area=0,0,0,50)
+
 
 Beskära de mittersta 50x50 på lövet:
 ![Leaf](image/leaf_256x256.png?crop=50,50,100,100)
 
 Konvertera bilder mellan olika format:
-png funkar också men leaf är idag i png.
+png, gif, jpg
 ![Leaf](image/leaf_256x256.png?width=50%&save-as=jpg)
-![Leaf](image/leaf_256x256.png?width=50%&save-as=gif)
 
 Skala kvalite:
 Testa och verifiera när du gör det.
@@ -76,8 +73,14 @@ Testa och verifiera när du gör det.
 
 Filter:
 ![Leaf](image/leaf_256x256.png?convolve=lighten)
-![Leaf](image/leaf_256x256.png?convolve=darken)
 ![Leaf](image/leaf_256x256.png?blur)
-![Leaf](image/leaf_256x256.png?f=grayscale)
-![Leaf](image/leaf_256x256.png?f=brightness,50)
 ![Leaf](image/leaf_256x256.png?f=contrast,50)
+
+Responsiva bilder:
+
+Se exempelmappen responsiva bilder. I cimage kan samma sak göras för sheep. Se nedan. 
+
+<picture>
+    <source media="(min-width: 668px)" srcset="%base_url%/image/sheep.jpg">
+    <img src="%base_url%/image/sheep.jpg&w=20" alt="A sheep">
+</picture>
