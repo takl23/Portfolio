@@ -88,3 +88,12 @@ Se exempelmappen responsiva bilder. I cimage kan samma sak göras för sheep. Se
 <div class="embed-container">
     <iframe src="https://www.youtube.com/embed/gCwjLPBqpa0" frameborder="0" allowfullscreen></iframe>
 </div>
+
+Vanlig:
+![Movement](%base_url%/image/movement.png)
+Röd ton:
+![Movement](%base_url%/image/movement.png?w=800&f=colorize,60,-20,-20,0)
+Inveterade färger:
+![Movement](%base_url%/image/movement.png?w=800&f=negate)
+Ritning:
+![Movement](%base_url%/image/movement.png?w=800&convolve=draw)
