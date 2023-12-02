@@ -6484,7 +6484,7 @@ img, embed, object, video {
 }
 
 img:not([alt]) {
-  outline: 4px red dashed !important;
+  outline: 4px #f00 dashed !important;
 }
 
 ol, ul {
