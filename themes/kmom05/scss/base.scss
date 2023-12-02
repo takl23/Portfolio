@@ -35,6 +35,10 @@ img, embed, object, video {
     max-width: 100%;
 }
 
+img:not([alt]) {
+    outline: 4px red dashed !important;
+}
+
 ol, ul {
     padding-left: 1.5em;
 }
