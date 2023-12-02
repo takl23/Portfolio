@@ -81,3 +81,11 @@
     }
 
 }
+
+@media (max-width: 668px) {
+    .gallery {
+        grid-gap: 0.5em;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
