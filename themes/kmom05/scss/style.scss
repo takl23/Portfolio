@@ -5,17 +5,15 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/solid';
 @import '../../shared/fontawesome/scss/regular';
 
-
 @import 'variables';
 @import 'mixin';
+
 @import 'typography';
 @import 'base';
-@import 'figure';
-
 @import 'header';
 @import 'footer';
+@import 'figure';
 @import 'nav';
 
-@import 'responsivity';
-
 @import 'specifics';
+@import 'responsivity';
