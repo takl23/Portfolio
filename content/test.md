@@ -22,3 +22,7 @@ save-as=jpg&q=70
 
 save-as=jpg&q=30
 ![save-as=jpg&q=30](%base_url%/image/movement.png?save-as=jpg&q=30)
+
+<div class="test">
+Wide
+</div>

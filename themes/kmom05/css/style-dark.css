@@ -6900,6 +6900,13 @@ table th, table td {
   grid-area: main;
 }
 
+.test {
+  box-sizing: content-box;
+  background-color: #000;
+  height: 10vh;
+  width: 60vb;
+}
+
 .gallery {
   display: grid;
   gap: 1em 1em;
