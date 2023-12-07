@@ -52,7 +52,7 @@
 @media (min-width: 960px) {
     .main {
         p, h1, h2, h3, h4, h5, h6, ol, ul, pre {
-            max-width: $text-width;  
+            /* max-width: $text-width; TA bort för att grid ska ersätta rätt bredd*/
             margin: $margin;
         }
     } 
@@ -76,7 +76,7 @@
 }
 
 @media (max-width: 1200px) {
-    .technology-menu h2, li {
+    .side h2, li {
         font-size: smaller;
     }
 

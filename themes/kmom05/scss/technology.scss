@@ -6,14 +6,13 @@
 }
 
 .wrapper {
-    max-width: $text-width;
+   /* max-width: $text-width; TA bort för att grid ska ersätta rätt bredd*/
     margin: 0 auto;
     padding: 5%;
 }
 
 .landingpage h1 {
     grid-column: span 3;
-    grid-column-start: 1;
 }
 
 .box {

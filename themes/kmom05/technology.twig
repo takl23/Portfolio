@@ -4,20 +4,21 @@
     {% include 'incl/nav.twig' %}
 
     <div class="main" role="main">
-        <div class="technology-single">
+        <div class="grid-side">
 
-            <div class="technology-menu">
+            <div class="side">
                 <h2>Innehållsförteckning</h2>
                  {% for page in pages("technology") %}
                     <div class="post">
                         <ul><li><h3><a href="{{ page.url }}">{{ page.title }}</a></h3></li></ul>
                     </div>
- {% endfor %}
+                {% endfor %}
             </div>
 
-            <div class="technology-content">
+            <div class="content">
                 {{ content }}
             </div>
+
         </div>
     </div>
     
