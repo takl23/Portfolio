@@ -6687,9 +6687,9 @@ pre code {
 }
 
 .wrapper {
-  /* max-width: $text-width; TA bort för att grid ska ersätta rätt bredd*/
   margin: 0 auto;
   padding: 5%;
+  /* max-width: $text-width; TA bort för att grid ska ersätta rätt bredd*/
 }
 
 .landingpage h1 {
