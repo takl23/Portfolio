@@ -22,8 +22,8 @@ body {
 
 .main {
     margin: 0 auto;
-    max-width: 80%;
-    background-color: $background-alternative-color;
+    max-width: 65%;
+    background-color: $background-color;
     overflow: auto;
     border-left: 1px solid #ccc;
     border-right: 1px solid #ccc;
@@ -33,6 +33,7 @@ body {
 
 img, embed, object, video {
     max-width: 100%;
+    border: $border-light;
 }
 
 img:not([alt]) {

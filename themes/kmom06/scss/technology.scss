@@ -19,7 +19,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: $border-heavy;
+    border: $border-light;
     font-weight: bold;
     
     a {
@@ -81,7 +81,7 @@
     width: 55%;
 
     pre {
-        background: $background-linear-gradient;
+        background: $background-alternative-color;
     }
 
     code {
