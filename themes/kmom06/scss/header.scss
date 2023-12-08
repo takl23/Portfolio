@@ -1,0 +1,69 @@
+.header 
+{
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: $background-linear-gradient;  
+    border-bottom: $border-heavy;
+
+    * {
+        color: $font-alternative-color;
+        text-decoration: none;
+    }
+
+    .site-header {
+        display: flex;
+        align-items: center; 
+
+    }
+
+    /* Title */
+
+    .title * {
+        color: $font-alternative-color;  
+        margin: 0;
+    }
+
+    .title p {
+        font-style: italic;
+    }
+
+    .title h1:hover {
+        color: $hover-color;
+    }
+
+
+    /*responsivity*/
+
+    @media (max-width: 767px) {
+        .title, .logo {
+            padding: 1em 1em 1em 0;
+        }
+        
+        .title {
+            min-width: 50%;
+        }
+        
+        .logo {
+            max-width: 30%;
+        }
+    }
+
+
+    @media (max-width: 300px) {
+        .title, .logo {
+            padding: 1em 1em 1em 0;
+        }
+
+        .title {
+            min-width: 50%;
+            font-size: smaller;
+        }
+
+        .logo {
+            display: none;
+        }
+    }
+
+}

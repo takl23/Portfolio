@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+/*color*/
+$font-color: #333;
+$font-alternative-color: #fff;
+
+$background-color: #fff ;
+$background-alternative-color: #fff;
+/*$background-linear-gradient: linear-gradient(to bottom, #93995A, #534B59); */
+$background-linear-gradient: #7E9E72;
+
+$background-meny: #5E4E5C;
+
+$border-color: #3C4937;
+
+$hover-color: #9E7299;
+
+/*borders*/
+$border-light: 1px solid #3C4937;
+$border-heavy: 4px solid #331E31;
+
+/*typography variables*/
+$header-font: 'Roboto', sans-serif;
+$main-font: 'Open Sans', sans-serif;
+$base-line-height: 1.4; /*En multipel av textstorleken*/
+$body-font-size: 1.1rem;
+$heading-font-size: 2.1rem;
+$margin-bottom: 1.54rem; /*1.4*1 $base-line-height*$base-font-size*/
+$margin: 1.54rem auto;
+$text-width: 45rem;
+
