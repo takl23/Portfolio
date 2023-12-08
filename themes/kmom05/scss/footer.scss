@@ -1,7 +1,9 @@
 .footer {
     border-top: $border-heavy;
     background: $background-linear-gradient;
-    padding: 1rem 6rem 4rem;
+    padding: 2rem;
+    min-height: 5%;
+        text-align: center;
     
     * {
         color: $font-alternative-color;
@@ -14,24 +16,7 @@
 
     .social {
         font-size: 2rem;
-        text-align: right;
-    }
-
-    .row {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        /*gap: max 60%;*/
-    }    
-
-    .row > .col2 {
-        width: calc(100% /2);
-        box-sizing: border-box;
-    }
-
-    .row h4 {
-        text-decoration: $border-light;
-    
+     
     }
 
 }

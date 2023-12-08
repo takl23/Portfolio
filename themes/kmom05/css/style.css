@@ -6589,7 +6589,9 @@ mark {
 .footer {
   border-top: 4px solid #331E31;
   background: #7E9E72;
-  padding: 1rem 6rem 4rem;
+  padding: 2rem;
+  min-height: 5%;
+  text-align: center;
 }
 .footer * {
   color: #fff;
@@ -6600,20 +6602,6 @@ mark {
 }
 .footer .social {
   font-size: 2rem;
-  text-align: right;
-}
-.footer .row {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  /*gap: max 60%;*/
-}
-.footer .row > .col2 {
-  width: 50%;
-  box-sizing: border-box;
-}
-.footer .row h4 {
-  text-decoration: 1px solid #3C4937;
 }
 
 .portfolio {
