@@ -24,12 +24,12 @@
 
 @media (max-width: 790px) {
     .site-header {
-       display: flex;
-       flex-direction: row;  
-       align-items: center;
-       justify-content: space-around;
-
+        display: flex;
+        flex-direction: row;  
+        align-items: center;
+        justify-content: space-around;
     }
+
     .nav-toggle i {
         color: $font-alternative-color;
     }
@@ -71,5 +71,3 @@
     }
 
 }
-
-
