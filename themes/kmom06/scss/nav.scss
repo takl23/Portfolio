@@ -1,0 +1,21 @@
+// Default options
+$defaultDuration: .3s;
+$primaryColour: $font-alternative-color;
+$secondaryColour: #7c7c7c;
+$shadowColour: #333;
+
+
+/* Float */
+.float {
+	display: inline-block;
+	transition-duration: $defaultDuration;
+	transition-property: transform;
+
+
+	&:hover {
+		transform: translateY(-5px);
+        color: $hover-color;
+        
+	}
+   
+}
