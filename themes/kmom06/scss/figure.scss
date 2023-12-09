@@ -1,11 +1,6 @@
 .portfolio {
-    display: block;  
-    width: 10em;
+    box-sizing: border-box;  
+    width: 15rem;
+    margin: auto;
     
-}
-
-.logo img {
-    display: block; 
-    width: 75%;
-    padding: 5%;
 }

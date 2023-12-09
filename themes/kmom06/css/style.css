@@ -6463,15 +6463,15 @@ html {
 }
 
 body {
-  background-color: #f3f3f3;
+  background-color: #fff;
   overflow-y: scroll;
   height: 100%;
 }
 
 .main {
   margin: 0 auto;
-  max-width: 65%;
-  background-color: #f3f3f3;
+  max-width: 80%;
+  background-color: #fff;
   overflow: auto;
   border-left: 1px solid #ccc;
   border-right: 1px solid #ccc;
@@ -6489,7 +6489,8 @@ img:not([alt]) {
 }
 
 ol, ul {
-  padding-left: 1.5em;
+  padding-left: 1.54rem;
+  text-align: left;
 }
 
 table {
@@ -6542,7 +6543,7 @@ mark {
   grid-area: site-header;
   border-bottom: 1px solid #ccc;
   padding: 1%;
-  background-color: #313131;
+  background-color: #544059;
   color: #fff;
 }
 
@@ -6570,6 +6571,7 @@ mark {
   grid-template-rows: auto auto;
   text-align: center;
   grid-template-areas: " site-header" "navigation";
+  border-bottom: 1px solid #ccc;
   /* Title */
   /*responsivity*/
 }
@@ -6596,10 +6598,11 @@ mark {
 }
 
 .footer {
-  background-color: #313131;
+  background-color: #544059;
   padding: 2rem;
   min-height: 5%;
   text-align: center;
+  border-top: 1px solid #ccc;
 }
 .footer * {
   color: #fff;
@@ -6613,14 +6616,9 @@ mark {
 }
 
 .portfolio {
-  display: block;
-  width: 10em;
-}
-
-.logo img {
-  display: block;
-  width: 75%;
-  padding: 5%;
+  box-sizing: border-box;
+  width: 15rem;
+  margin: auto;
 }
 
 blockquote {
@@ -6734,7 +6732,7 @@ pre code {
   width: 55%;
 }
 .technology-content pre {
-  background: #313131;
+  background: #544059;
 }
 .technology-content code {
   color: #fff;
@@ -6754,10 +6752,7 @@ table {
   font-size: 0.9rem;
 }
 table tr:nth-child(2n) {
-  background-color: #f3f3f3;
-}
-table th {
-  text-align: left;
+  background-color: #fff;
 }
 table td {
   border-top: 1px solid #ccc;
@@ -6796,6 +6791,8 @@ table th, table td {
   grid-template-columns: auto minmax(auto, 45rem) auto;
   /*grid-auto-rows: minmax(100px, auto);*/
   grid-template-areas: " . main . ";
+  text-align: center;
+  align-items: center;
 }
 
 /*sans-serif väljs om Verdana inte lyckas laddas*/
@@ -6962,6 +6959,9 @@ table th, table td {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+  }
+  .nav-toggle i {
+    color: #fff;
   }
   .nav ul {
     flex-direction: column;

@@ -22,13 +22,14 @@ body {
 
 .main {
     margin: 0 auto;
-    max-width: 65%;
+    max-width: 80%;
     background-color: $background-color;
     overflow: auto;
     border-left: 1px solid #ccc;
     border-right: 1px solid #ccc;
     min-height: 100%;
     padding: 5%;
+
 }
 
 img, embed, object, video {
@@ -41,7 +42,8 @@ img:not([alt]) {
 }
 
 ol, ul {
-    padding-left: 1.5em;
+    padding-left: $margin-bottom;
+    text-align: left;
 }
 
 table {
@@ -86,3 +88,4 @@ table {
 mark {
     background-color: #9bbbb7;
 }
+

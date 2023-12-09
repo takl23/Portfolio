@@ -30,6 +30,9 @@
        justify-content: space-around;
 
     }
+    .nav-toggle i {
+        color: $font-alternative-color;
+    }
 
     .nav ul {
         flex-direction: column;
