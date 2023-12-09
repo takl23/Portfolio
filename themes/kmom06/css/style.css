@@ -6567,7 +6567,6 @@ mark {
   grid-template-rows: auto auto;
   text-align: center;
   grid-template-areas: " site-header" "navigation";
-  border-bottom: 1px solid #ccc;
   /* Title */
   /*responsivity*/
 }
@@ -6738,11 +6737,13 @@ pre code {
 .technology-content {
   width: 55%;
 }
-.technology-content pre {
-  background: #544059;
-}
 .technology-content code {
   color: #fff;
+}
+
+pre {
+  background: #544059;
+  border: 1px solid #ccc;
 }
 
 div .analysis + table {
@@ -6981,6 +6982,7 @@ header h1 {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    border-bottom: none;
   }
   .nav-toggle i {
     color: #fff;
