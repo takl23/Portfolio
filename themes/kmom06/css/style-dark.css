@@ -6963,7 +6963,7 @@ header h1 {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    border-bottom: none;
+    border-bottom: 0;
   }
   .nav-toggle i {
     color: #fff;
