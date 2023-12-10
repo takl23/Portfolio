@@ -27,25 +27,25 @@ Resultat
 -----------------------
 Nedan presenteras mätvärdena samt skärmklipp på webbplatserna som analyserats.
 
-#### Mätvärden
+### Mätvärden
 
 <div class="container">
 
-<iframe class="responsive-iframe" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTwcMR7e1aCDIDXtvrTi4trVdtsfpU0ys8jNui4gpXEHldZxHwzBKX6FQoRQNIMDyU1SVlOGpGN8vAb/pubhtml?widget=true&amp;headers=false"></iframe>
+<iframe class="responsive-iframe" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTwcMR7e1aCDIDXtvrTi4trVdtsfpU0ys8jNui4gpXEHldZxHwzBKX6FQoRQNIMDyU1SVlOGpGN8vAb/pubhtml?widget=true&amp;headers=false" title="Mätvärdern laddningstider på en hemsida"></iframe>
 
 </div>
 
-#### Försäkringskassan
+### Försäkringskassan
 ![forsakringskassan_Screenshot](../image/forsakringskassan_Screenshot.png "forsakringskassan_Screenshot")
  
  Lägst poäng i PageSpeed Insights får Försäkringskassan på prestanda både för desktop, men framförallt mobila enheter. Övriga parametrar har höga poäng. Förbättring för denna webbplats är att fokusera på att ta bort resurser som blockerar renderingen och hantering av bildelement där det saknas width och height på sina ställen.
  
-#### SVT Play
+### SVT Play
 ![SVT_Screenshot](../image/SVT_Screenshot.png "SVT_Screenshot")
 
 För SVT är det prestandan som får lägst poäng i PageSPeed Insights där både mobila enheter och desktop har låg poäng. Övriga parametrar har höga poäng. Förbättringar för denna webbplats är att minsak arbetsbelastning på modertråden, minska körtiden för JavaScript och reducera JavaScript och CSS som inte används och använda bilder med rätt storlek.
 
-#### H&M
+### H&M
 ![HM_Screenshot](../image/HM_Screenshot.png "HM_Screenshot")
 
 H&Ms hemsida får låga poäng på prestanda för både mobila enheter och desktop. Övriga parametrar har höga poäng. Förbättringar som kan föras är att reducera JavaScript som inte används, minska serverns första svarstid, minska arbetsbelastningen på moder tråden och hantering av bildelement där det saknas width och height på sina ställen. PageSpeed Insight uppmanar också till att undvik ett onödigt stort DOM-träd.

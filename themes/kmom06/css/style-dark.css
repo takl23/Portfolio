@@ -6582,7 +6582,7 @@ mark {
   color: #fff;
 }
 .header .title h1:hover {
-  color: #7c7c7c;
+  color: #ccb700;
 }
 @media (max-width: 400px) {
   .header .title {
@@ -6603,16 +6603,18 @@ mark {
   text-decoration: none;
 }
 .footer li:hover, .footer a:hover, .footer i:hover {
-  color: #7c7c7c;
+  color: #ccb700;
 }
 .footer .social {
   font-size: 2rem;
 }
 
 .portfolio {
-  box-sizing: border-box;
-  width: 15rem;
+  box-sizing: content-box;
   margin: auto;
+}
+.portfolio img {
+  max-width: 15rem;
 }
 
 /* Float */
@@ -6623,7 +6625,7 @@ mark {
 }
 .float:hover {
   transform: translateY(-5px);
-  color: #7c7c7c;
+  color: #ccb700;
 }
 
 blockquote {
@@ -6638,7 +6640,7 @@ code {
   padding: 0.1em 0.2em;
   border: 1px solid #ccc;
   border-radius: 0.3em;
-  background: #f5f5f5;
+  background: #fff;
   font-family: monospace;
   font-size: 0.85rem;
   line-height: 1.9824;
@@ -6702,7 +6704,7 @@ pre code {
 }
 
 .landingpage div:hover {
-  background-color: #7c7c7c;
+  background-color: #ccb700;
 }
 
 .side li {
@@ -6712,11 +6714,7 @@ pre code {
   text-decoration: none;
 }
 .side li:hover, .side a:hover {
-  color: #7c7c7c;
-}
-
-.technology-content {
-  width: 55%;
+  color: #ccb700;
 }
 
 code {

@@ -14,3 +14,7 @@ Rapporter
 <div class="box c-three">
 <a href="%base_url%?analysis/02_load"> 02_Webbplatsers laddningstid och användbarhet</a>
 </div>
+
+<div class="box c-three">
+<a href="%base_url%?analysis/03_design_principles"> 03_Designprinciper som webbplatser använder sig av</a>
+</div>

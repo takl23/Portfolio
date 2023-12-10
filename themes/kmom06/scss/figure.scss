@@ -1,6 +1,8 @@
 .portfolio {
-    box-sizing: border-box;  
-    width: 15rem;
+    box-sizing: content-box;  
     margin: auto;
     
+    img {
+        max-width: 15rem;
+    }
 }

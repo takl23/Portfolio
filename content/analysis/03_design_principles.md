@@ -305,7 +305,7 @@ I stora drag kan man säga att min webbplats saknar en känsla och ett flöde. A
 Referenser
 -----------------------
 
-<i>Referenser senast kontrollerade 2023-12-xx.</i>
+<i>Referenser senast kontrollerade 2023-12-10.</i>
 
 [01]: https://www.annaoemil.se
 

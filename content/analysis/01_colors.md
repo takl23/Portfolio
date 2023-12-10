@@ -26,12 +26,18 @@ Följande webbläsare har använts vid analys:
 
 Genom att högerklicka på ett objekt får man fram inspekteringsrutan. I analysen så har vi inspekterat rubriker och brödtext. Bild 1 illustrerar metodförfarandet för analys av typografin.
 
+<picture>
+ <source media="(min-width: 668px)" srcset="%base_url%/image/insepktera.png?save-as=jpg&w=1200&q=70&aro">
+    <img src="%base_url%/image/insepktera.png?save-as=jpg&w=600&q=70&aro" alt="Inspekteraverktyget i Firefox Develeoper verison 120.0b9">
+</picture>
 
-![Inspektera](../image/insepktera.png "Inspekteraverktyget i Firefox Develeoper verison 120.0b9")
 
 Bild 2 illustrerar metodförfarandet för analys av färg. Framförallt har de dominerande färgerna på webbplatsens första sida analyserats och sedan har några accentfärger plockats ut och studerats.
 
-![Pipettverktyget](../image/pipett.png "Pipettverktyget i Firefox Develeoper verison 120.0b9") 
+<picture>
+ <source media="(min-width: 668px)" srcset="%base_url%/image/pipett.png?save-as=jpg&w=1200&q=70&aro">
+    <img src="%base_url%/image/pipett.png?save-as=jpg&w=600&q=70&aro" alt="Pipettverktyget i Firefox Develeoper verison 120.0b9">
+</picture>
 
 Vid färganalysen har även färghjulet ["color-wheel"][02] från Adobe används.
 
@@ -65,31 +71,34 @@ I menyn så kategoriseras allt enligt färg,, dock i något ljusare ton än på 
 
 Nedan presenteras bilder på försäkringskassans första sida samt en till sida på webbplatsen och färgskalor som plockats ut från hemsidan.
 
-![forsakringskassan](../image/forsakringskassan.png "forsakringskassan")
+<picture>
+ <source media="(min-width: 668px)" srcset="%base_url%/image/forsakringskassan.png?save-as=jpg&w=1200&q=70&aro">
+    <img src="%base_url%/image/forsakringskassan.png?save-as=jpg&w=600&q=70&aro" alt="forsakringskassan">
+</picture>
 
 Färger på hemsidan:
 
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
-<td style="height: 50px; width: 50px; background-color: #116a3e; color: #ffffff;"> #116a3e 
-<td style="height: 50px; width: 50px; background-color: #0c4329; color: #ffffff;"> #0c4329
-<td style="height: 50px; width: 50px; background-color: #a6d0ab;"> #a6d0ab 
-<td style="height: 50px; width: 50px; background-color: #434ee4; color: #ffffff;"> #434ee4
+<td style="height: 50px; width: 50px; background-color: #116a3e; color: #ffffff;"> 
+<td style="height: 50px; width: 50px; background-color: #0c4329; color: #ffffff;">
+<td style="height: 50px; width: 50px; background-color: #a6d0ab;"> 
+<td style="height: 50px; width: 50px; background-color: #434ee4; color: #ffffff;"> 
 </tr>
 
 
 <tr>
-<td style="height: 50px; width: 50px; background-color: #bf8a21"> #bf8a21
-<td style="height: 50px; width: 50px; background-color: #4c669f; color: #ffffff;"> #4c669f
-<td style="height: 50px; width: 50px; background-color: #d34503"> #d34503
-<td style="height: 50px; width: 50px; background-color: #a73a64; color: #ffffff;"> #a73a64
+<td style="height: 50px; width: 50px; background-color: #bf8a21"> 
+<td style="height: 50px; width: 50px; background-color: #4c669f; color: #ffffff;"> 
+<td style="height: 50px; width: 50px; background-color: #d34503"> 
+<td style="height: 50px; width: 50px; background-color: #a73a64; color: #ffffff;">
 </tr>
 
 <tr>
-<td style="height: 50px; width: 50px; background-color: #f2e7d2"> #f2e7d2
-<td style="height: 50px; width: 50px; background-color: #dbe0ec"> #dbe0ec
-<td style="height: 50px; width: 50px; background-color: #f6dacd"> #f6dacd
-<td style="height: 50px; width: 50px; background-color: #edd7e0; color: #ffffff;"> #edd7e0
+<td style="height: 50px; width: 50px; background-color: #f2e7d2"> 
+<td style="height: 50px; width: 50px; background-color: #dbe0ec"> 
+<td style="height: 50px; width: 50px; background-color: #f6dacd"> 
+<td style="height: 50px; width: 50px; background-color: #edd7e0; color: #ffffff;">
 </tr>
 
 </table>
@@ -101,28 +110,34 @@ Inslag av andra färger på hemsidan används sparsamt och används då för att
 
 Sidhuvudet har samma färg som resten av hemsidan. Sidfoten längs ner på sidan är gjord i en mörkare svart färg och här hittas behändig information som är indelad i fyra delar där uppdelningen är gjord med linjer i en ljusare ton. 
  
-![svt1](../image/svt1.png "svt1")
+<picture>
+ <source media="(min-width: 668px)" srcset="%base_url%/image/svt1.png?save-as=jpg&w=1200&q=70&aro">
+    <img src="%base_url%/image/svt1.png?save-as=jpg&w=600&q=70&aro" alt="svt hemsida">
+</picture>
 
-![svt2](../image/svt2.png "svt2")
+<picture>
+ <source media="(min-width: 668px)" srcset="%base_url%/image/svt2.png?save-as=jpg&w=1200&q=70&aro">
+    <img src="%base_url%/image/svt2.png?save-as=jpg&w=600&q=70&aro" alt="svt hemsida">
+</picture>
 
 Färger på hemsidan:
 
 <table style="border-spacing: 4px; border-collapse: separate">
 
 <tr>
-<td style="height: 50px; width: 50px; background-color: #00c800"> #00c800;
-<td style="height: 50px; width: 50px; background: linear-gradient(150deg, rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.3) 9%, transparent 30%), linear-gradient(125deg, rgba(55, 13, 76, 0.93) 10%, rgba(55, 13, 76, 0.5) 100%); color: #ffffff;"> linear-gradient(150deg, rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.3) 9%, transparent 30%), linear-gradient(125deg, rgba(55, 13, 76, 0.93) 10%, rgba(55, 13, 76, 0.5) 100%);
-<td style="height: 50px; width: 50px; background-color: #ff4b7d"> #ff4b7d
-<td style="height: 50px; width: 50px; background: linear-gradient(150deg, rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.3) 9%, transparent 30%), linear-gradient(125deg, rgba(21, 41, 70, 0.93) 10%, rgba(21, 41, 70, 0.5) 100%); color: #ffffff;"> linear-gradient(150deg, rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.3) 9%, transparent 30%), linear-gradient(125deg, rgba(21, 41, 70, 0.93) 10%, rgba(21, 41, 70, 0.5) 100%);
-<td style="height: 50px; width: 50px; background-color: #fff000"> #fff000
+<td style="height: 50px; width: 50px; background-color: #00c800"> 
+<td style="height: 50px; width: 50px; background: linear-gradient(150deg, rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.3) 9%, transparent 30%), linear-gradient(125deg, rgba(55, 13, 76, 0.93) 10%, rgba(55, 13, 76, 0.5) 100%); color: #ffffff;"> 
+<td style="height: 50px; width: 50px; background-color: #ff4b7d"> 
+<td style="height: 50px; width: 50px; background: linear-gradient(150deg, rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.3) 9%, transparent 30%), linear-gradient(125deg, rgba(21, 41, 70, 0.93) 10%, rgba(21, 41, 70, 0.5) 100%); color: #ffffff;"> 
+<td style="height: 50px; width: 50px; background-color: #fff000"> 
 </tr>
 </table>
 
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
-<td style="height: 50px; width: 50px; background-color: #1b1614; color: #ffffff;"> #1b1614
-<td style="height: 50px; width: 50px; background-color: #211d1b; color: #ffffff;"> #211d1b
-<td style="height: 50px; width: 50px; background-color: #ffffff;"> #ffffff
+<td style="height: 50px; width: 50px; background-color: #1b1614; color: #ffffff;"> 
+<td style="height: 50px; width: 50px; background-color: #211d1b; color: #ffffff;">
+<td style="height: 50px; width: 50px; background-color: #ffffff;"> 
 </tr>
 </table>
 
@@ -135,30 +150,43 @@ I övrigt är det sparsamt med färg och det som sticker ut är den röda färge
 
 ![hm2](../image/hm2.png "hm2")
 
+<picture>
+ <source media="(min-width: 668px)" srcset="%base_url%/image/hm1.png?save-as=jpg&w=1200&q=70&aro">
+    <img src="%base_url%/image/hm1.png?save-as=jpg&w=600&q=70&aro" alt="hm hemsida">
+</picture>
+<picture>
+ <source media="(min-width: 668px)" srcset="%base_url%/image/hm.png?save-as=jpg&w=1200&q=70&aro">
+    <img src="%base_url%/image/hm2.png?save-as=jpg&w=600&q=70&aro" alt="hm hemsida">
+</picture>
+
 Färger på hemsidan:
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
-<td style="height: 50px; width: 50px; background-color: #312d2e; color: #ffffff;"> #222222
-<td style="height: 50px; width: 50px; background-color: #707070;"> #707070
-<td style="height: 50px; width: 50px; background-color: #faf9f8;"> #faf9f8
-<td style="height: 50px; width: 50px; background-color: #f1ebdf;"> #f1ebdf
-<td style="height: 50px; width: 50px; background-color: #e50010;"> #e50010
+<td style="height: 50px; width: 50px; background-color: #312d2e; color: #ffffff;"> 
+<td style="height: 50px; width: 50px; background-color: #707070;">
+<td style="height: 50px; width: 50px; background-color: #faf9f8;"> 
+<td style="height: 50px; width: 50px; background-color: #f1ebdf;"> 
+<td style="height: 50px; width: 50px; background-color: #e50010;"> 
 </tr>
 </table>
 
 Analys
 -----------------------
 
-#### Försäkringskassan
+### Försäkringskassan
 Försäkringskassan är en myndighetssida och jag upplever sidan som organiserad och att val av färg och indelning är gjord för att just lätt hitta rätt kategori för ens ärende.
 
 Typografin på hemsidan är en standard sans-serif font som upplevs som lättläst och tydlig. Text på hemsidan presenteras tydligt också då svart text mot vit bakgrund skapar en bra kontrast. 
  
 Inom respektive kategori så ser man att man har använt sig av monokrom färgsättning vilket även applicerats på färgen grön som är färgen som kännetecknar försäkringskassan och är den som knyter ihop hela webbplatsen. Färger på hemsidan mellan varje kategori så känns det som om man valt en färg i varje tårtbit i färgcirkeln, men svårt att säga att det följer något specifikt färgschema baserat på kunskapen jag fhar idag. 
 
-![forsakringskassan farganalys](../image/forsakringskassan_farganalys.png "forsakringskassan farganalys")
+<picture>
+ <source media="(min-width: 668px)" srcset="%base_url%/image/forsakringskassan_farganalys.png?save-as=jpg&w=1200&q=70&aro">
+    <img src="%base_url%/image/forsakringskassan_farganalys.png?save-as=jpg&w=600&q=70&aro" alt="forsakringskassan_farganalys">
+</picture>
 
-#### SVT Play
+
+### SVT Play
 SVT play skapar en biokänsla på grund av det mörka temat och klippen som upplevs som affischer. Vit text mot svart bakgrund gör att den stora textmassan är enkle att läsa. Typografin som har valts är dock ingen standardfont. Man har valt fonten [Public][03] som ändå upplevs tydlig. 
 
 I det stora hela har man färgsatt hemsidan sparsamt vilket är klok då klippen får stå för den stora färgklicken. Man har dock valt att färglägga ytor när man vill framhäva vissa saker, som tex 'höstens serier' eller 'omtalade dokumentärer' och där har man använd sig av skarpare textfärger mot en bakgrund som är gradientutformad för att få det att sticka ut. 
@@ -167,7 +195,12 @@ Har inte tydligt kunna peka på hur man gått tillväga när man färgsatt sidan
 
 ![svt farganalys](../image/svt_farganalys.png "svt farganalys")
 
-#### H&M
+<picture>
+ <source media="(min-width: 668px)" srcset="%base_url%/image/svt_farganalys.png?save-as=jpg&w=1200&q=70&aro">
+    <img src="%base_url%/image/svt_farganalys.png?save-as=jpg&w=600&q=70&aro" alt="svt_farganalys">
+</picture>
+
+### H&M
 H&Ms hemsida tycker jag representerar en ren känsla där kläderna får vara i fokus då man har använt sparsamt med färg. 
 
 Typografin som används är HM Sans vilket är en egenutvecklad typografi för H&M. Det man generellt kan säga om texterna på hemsidan är att det inte finns stora textpartier och att texterna är lite mindre i genomsnitt är min upplevelse. I alla fall på första sidan. Men det tror jag återigen beror på att man vill att kläderna ska vara i fokus. 
@@ -175,6 +208,12 @@ Typografin som används är HM Sans vilket är en egenutvecklad typografi för H
 Kan inte se att man använt sig av ett tydligt koncept när man valt färg om man inte ska påstå att man valt ett monokromt tema med toner i svart, vitt och beigt och brutit av med den röda färgen. Nedan presenteras färgerna som plockats ut på hemsidan i färghjulet ["color-wheel"][02] från Adobe.
 
 ![H&M farganalys](../image/hm_farganalys.png "H&M farganalys")
+
+<picture>
+ <source media="(min-width: 668px)" srcset="%base_url%/image/hm_farganalys.png?save-as=jpg&w=1200&q=70&aro">
+    <img src="%base_url%/image/hm_farganalys.png?save-as=jpg&w=600&q=70&aro" alt="hm_farganalys">
+</picture>
+
 
 Referenser
 -----------------------
