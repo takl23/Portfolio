@@ -6706,44 +6706,28 @@ pre code {
   background-color: #7c7c7c;
 }
 
-.technology-single {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-
-.technology-menu {
-  width: 25%;
-  min-height: 100vh;
-  border-right: 1px solid #ccc;
-  padding-left: 1em;
-  padding-right: 1em;
-  padding-top: 24px;
-}
-.technology-menu h2 {
-  border-bottom: 1px solid #ccc;
-}
-.technology-menu li {
+.side li {
   margin-left: 1.5em;
 }
-.technology-menu a {
+.side a {
   text-decoration: none;
 }
-.technology-menu li:hover, .technology-menu a:hover {
+.side li:hover, .side a:hover {
   color: #7c7c7c;
 }
 
 .technology-content {
   width: 55%;
 }
-.technology-content code {
+
+code {
   color: #fff;
 }
 
 pre {
   background: #544059;
   border: 1px solid #ccc;
+  color: #fff;
 }
 
 div .analysis + table {

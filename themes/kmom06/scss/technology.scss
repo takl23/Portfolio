@@ -45,26 +45,8 @@
 }
 
 
-.technology-single {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-
-.technology-menu {
-    width: 25%;
-    min-height: 100vh;
-    border-right: $border-light;
-    padding-left: 1em;
-    padding-right: 1em;
-    padding-top: 24px;
-
-    h2 {
-        border-bottom: 1px solid #ccc;
-    }
-
-    li {
+.side {
+     li {
         margin-left: 1.5em;
     }
 
@@ -80,13 +62,14 @@
 .technology-content {
     width: 55%;
 
-    code {
-        color: #fff;
-    }
+}
 
+code {
+    color: #fff;
 }
 
 pre {
     background: $background-alternative-color;
     border: $border-light;
+    color: #fff;
 }
